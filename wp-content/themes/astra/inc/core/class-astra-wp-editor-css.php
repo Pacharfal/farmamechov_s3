@@ -130,11 +130,13 @@ class Astra_WP_Editor_CSS {
 
 		$highlight_theme_color = astra_get_foreground_color( $theme_color );
 
-		$body_font_weight    = astra_get_option( 'body-font-weight' );
-		$body_font_size      = astra_get_option( 'font-size-body' );
-		$body_line_height    = astra_get_option( 'body-line-height' );
-		$body_text_transform = astra_get_option( 'body-text-transform' );
-		$text_color          = astra_get_option( 'text-color' );
+		$body_font_weight     = astra_get_option( 'body-font-weight' );
+		$body_font_size       = astra_get_option( 'font-size-body' );
+		$body_line_height     = astra_get_font_extras( astra_get_option( 'body-font-extras' ), 'line-height', 'line-height-unit' );
+		$body_text_transform  = astra_get_font_extras( astra_get_option( 'body-font-extras' ), 'text-transform' );
+		$body_letter_spacing  = astra_get_font_extras( astra_get_option( 'body-font-extras' ), 'letter-spacing', 'letter-spacing-unit' );
+		$body_text_decoration = astra_get_font_extras( astra_get_option( 'body-font-extras' ), 'text-decoration' );
+		$text_color           = astra_get_option( 'text-color' );
 
 		$heading_h1_font_size = astra_get_option( 'font-size-h1' );
 		$heading_h2_font_size = astra_get_option( 'font-size-h2' );
@@ -435,9 +437,6 @@ class Astra_WP_Editor_CSS {
 			'.editor-styles-wrapper a'         => array(
 				'color' => esc_attr( $link_color ),
 			),
-			'.block-editor-block-list__block'  => array(
-				'color' => esc_attr( $text_color ),
-			),
 			// Global selection CSS.
 			'.block-editor-block-list__layout .block-editor-block-list__block ::selection,.block-editor-block-list__layout .block-editor-block-list__block.is-multi-selected .editor-block-list__block-edit:before' => array(
 				'background-color' => esc_attr( $theme_color ),
@@ -449,11 +448,13 @@ class Astra_WP_Editor_CSS {
 			'.editor-styles-wrapper'           => astra_get_responsive_background_obj( $content_background, 'desktop' ),
 
 			'.editor-styles-wrapper, #customize-controls .editor-styles-wrapper' => array(
-				'font-family'    => astra_get_font_family( $body_font_family ),
-				'font-weight'    => esc_attr( $body_font_weight ),
-				'font-size'      => astra_responsive_font( $body_font_size, 'desktop' ),
-				'line-height'    => esc_attr( $body_line_height ),
-				'text-transform' => esc_attr( $body_text_transform ),
+				'font-family'     => astra_get_font_family( $body_font_family ),
+				'font-weight'     => esc_attr( $body_font_weight ),
+				'font-size'       => astra_responsive_font( $body_font_size, 'desktop' ),
+				'line-height'     => esc_attr( $body_line_height ),
+				'text-transform'  => esc_attr( $body_text_transform ),
+				'text-decoration' => esc_attr( $body_text_decoration ),
+				'letter-spacing'  => esc_attr( $body_letter_spacing ),
 			),
 			'.editor-styles-wrapper h1, .editor-styles-wrapper h2, .editor-styles-wrapper h3, .editor-styles-wrapper h4, .editor-styles-wrapper h5, .editor-styles-wrapper h6' => astra_get_font_array_css( astra_get_option( 'headings-font-family' ), astra_get_option( 'headings-font-weight' ), array(), 'headings-font-extras', $heading_base_color ),
 
@@ -567,6 +568,9 @@ class Astra_WP_Editor_CSS {
 			// Margin bottom same as applied on frontend.
 			'.editor-styles-wrapper .is-root-container.block-editor-block-list__layout > .wp-block-heading' => array(
 				'margin-bottom' => '20px',
+			),
+			'.editor-styles-wrapper p'         => array(
+				'line-height' => esc_attr( $body_line_height ),
 			),
 		);
 

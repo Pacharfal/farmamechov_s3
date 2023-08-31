@@ -2,21 +2,21 @@
 # This file is distributed under the same license as the Plugins - Contact Form by WPForms &#8211; Drag &amp; Drop Form Builder for WordPress - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-07-29 19:15:19+0000\n"
+"PO-Revision-Date: 2023-08-11 13:42:24+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
-"X-Generator: GlotPress/4.0.0-alpha.6\n"
+"X-Generator: GlotPress/4.0.0-alpha.7\n"
 "Language: cs_CZ\n"
 "Project-Id-Version: Plugins - Contact Form by WPForms &#8211; Drag &amp; Drop Form Builder for WordPress - Stable (latest release)\n"
 
 #. translators: %s - license name(s).
-#: src/Requirements/Requirements.php:934
+#: src/Requirements/Requirements.php:938
 msgid "%s license"
 msgstr "%s licence"
 
-#: src/Requirements/Requirements.php:1021
+#: src/Requirements/Requirements.php:1025
 msgid "and"
 msgstr "a"
 
@@ -44,11 +44,6 @@ msgstr "Během zvoleného období nebyly použity žádné kupóny"
 msgid "Advanced Details"
 msgstr "Pokročilé Detaily"
 
-#. translators: %s - error message.
-#: src/Integrations/Stripe/Process.php:790
-msgid "Credit Card Payment Error: %s"
-msgstr "Chyba platby kreditní kartou: %s"
-
 #: templates/admin/payments/single/heading-navigation.php:46
 msgid "Current payment"
 msgstr "Aktuální platba"
@@ -70,7 +65,7 @@ msgstr "Zobrazit záznam"
 msgid "Unlock conditional logic, coupons, lower Stripe fees, and more. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Upgrade to Pro!</a>"
 msgstr "Odemkněte podmíněnou logiku, kupóny, nižší poplatky za Stripe a další. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Upgradujte na verzi Pro!</a>"
 
-#: src/Integrations/Stripe/Process.php:167
+#: src/Integrations/Stripe/Process.php:198
 msgid "Unable to process payment, please try again later."
 msgstr "Platbu nebylo možné zpracovat, prosím zkuste to znovu později."
 
@@ -151,7 +146,7 @@ msgstr "Authorize.net"
 msgid "Completed"
 msgstr "Dokončeno"
 
-#: src/Admin/Education/Fields.php:220 src/Admin/Payments/Views/Single.php:306
+#: src/Admin/Education/Fields.php:227 src/Admin/Payments/Views/Single.php:306
 #: src/Admin/Payments/Views/Single.php:576
 msgid "Coupon"
 msgstr "Kupón"
@@ -182,7 +177,7 @@ msgstr "Denně"
 msgid "Danish Krone"
 msgstr "Dánská Koruna"
 
-#: includes/fields/class-base.php:3011
+#: includes/fields/class-base.php:3041
 msgid "Dynamic choices"
 msgstr "Dynamické možnosti"
 
@@ -203,12 +198,12 @@ msgstr "Hongkongský dolar"
 msgid "Hungarian Forint"
 msgstr "Maďarský forint"
 
-#: src/Forms/Fields/PaymentSelect/Field.php:461
+#: src/Forms/Fields/PaymentSelect/Field.php:462
 msgid "Invalid payment option"
 msgstr "Neplatná platební metoda"
 
-#: src/Forms/Fields/PaymentCheckbox/Field.php:527
-#: src/Forms/Fields/PaymentMultiple/Field.php:499
+#: src/Forms/Fields/PaymentCheckbox/Field.php:528
+#: src/Forms/Fields/PaymentMultiple/Field.php:500
 msgid "Invalid payment option."
 msgstr "Neplatná platební metoda."
 
@@ -216,11 +211,11 @@ msgstr "Neplatná platební metoda."
 msgid "Israeli New Sheqel"
 msgstr "Izraelský nový šekel"
 
-#: includes/fields/class-base.php:3012
+#: includes/fields/class-base.php:3042
 msgid "items"
 msgstr "položky"
 
-#: src/Forms/Fields/PaymentSingle/Field.php:197
+#: src/Forms/Fields/PaymentSingle/Field.php:198
 msgid "Item Price"
 msgstr "Cena položky"
 
@@ -274,7 +269,7 @@ msgid "Philippine Peso"
 msgstr "Filipínské peso"
 
 #: includes/admin/builder/class-builder.php:554
-#: includes/fields/class-base.php:3017
+#: includes/fields/class-base.php:3047
 msgid "posts"
 msgstr "příspěvky"
 
@@ -321,7 +316,7 @@ msgid "Test"
 msgstr "Test"
 
 #: includes/admin/builder/class-builder.php:555
-#: includes/fields/class-base.php:3022
+#: includes/fields/class-base.php:3052
 msgid "terms"
 msgstr "podmínky"
 
@@ -367,7 +362,7 @@ msgstr "Kanadský dolar"
 msgid "Cancelled"
 msgstr "Zrušeno"
 
-#: src/Admin/Payments/Views/Overview/Table.php:477
+#: src/Admin/Payments/Views/Overview/Table.php:479
 msgid "equals to"
 msgstr "rovná se"
 
@@ -376,14 +371,14 @@ msgid "Malaysian Ringgit"
 msgstr "Malajsijský ringgit"
 
 #. translators: %s - price amount.
-#: src/Forms/Fields/PaymentSingle/Field.php:303
-#: src/Forms/Fields/PaymentSingle/Field.php:353
+#: src/Forms/Fields/PaymentSingle/Field.php:304
+#: src/Forms/Fields/PaymentSingle/Field.php:354
 msgid "Price: %s"
 msgstr "Cena: %s"
 
-#: src/Forms/Fields/PaymentCheckbox/Field.php:43
-#: src/Forms/Fields/PaymentMultiple/Field.php:43
-#: src/Forms/Fields/PaymentSelect/Field.php:55
+#: src/Forms/Fields/PaymentCheckbox/Field.php:44
+#: src/Forms/Fields/PaymentMultiple/Field.php:44
+#: src/Forms/Fields/PaymentSelect/Field.php:56
 msgid "Third Item"
 msgstr "Třetí položka"
 
@@ -395,7 +390,7 @@ msgstr "Celkové tržby"
 msgid "Total Payments"
 msgstr "Celkem plateb"
 
-#: src/Admin/Payments/Views/Overview/Table.php:421
+#: src/Admin/Payments/Views/Overview/Table.php:423
 #: src/Admin/Payments/Views/Single.php:553
 msgid "Transaction ID"
 msgstr "ID transakce"
@@ -430,7 +425,7 @@ msgid "Failed"
 msgstr "Neúspěšné"
 
 #. translators: %d - number of payments found.
-#: src/Admin/Payments/Views/Overview/Table.php:792
+#: src/Admin/Payments/Views/Overview/Table.php:794
 msgid "Found <strong>%d payment</strong> where"
 msgid_plural "Found <strong>%d payments</strong> where"
 msgstr[0] "Kde byla nalezena <strong>%d platba</strong>"
@@ -441,27 +436,32 @@ msgstr[2] "Kde bylo nalezeno <strong>%d plateb</strong>"
 msgid "You've already created a form, now add it to the page so your customers can get in touch."
 msgstr "Již jste vytvořili formulář, nyní jej přidejte na stránku, aby vás vaši zákazníci mohli kontaktovat."
 
-#: src/Integrations/Gutenberg/FormSelector.php:346
+#: src/Integrations/Gutenberg/FormSelector.php:348
 msgid "Colors"
 msgstr "Barvy"
 
-#: src/Integrations/Gutenberg/FormSelector.php:341
+#: src/Integrations/Elementor/WidgetModern.php:136
+#: src/Integrations/Elementor/WidgetModern.php:206
+#: src/Integrations/Elementor/WidgetModern.php:267
+#: src/Integrations/Gutenberg/FormSelector.php:343
 msgid "Size"
 msgstr "Velikost"
 
-#: src/Integrations/Gutenberg/FormSelector.php:324
+#: src/Integrations/Gutenberg/FormSelector.php:326
 msgid "Additional CSS Classes"
 msgstr "Dodatečné CSS třídy"
 
-#: src/Integrations/Gutenberg/FormSelector.php:342
+#: src/Integrations/Elementor/WidgetModern.php:155
+#: src/Integrations/Elementor/WidgetModern.php:286
+#: src/Integrations/Gutenberg/FormSelector.php:344
 msgid "Background"
 msgstr "Pozadí"
 
-#: src/Integrations/Gutenberg/FormSelector.php:355
+#: src/Integrations/Gutenberg/FormSelector.php:357
 msgid "Yes, Reset"
 msgstr "Ano, resetovat"
 
-#: src/Integrations/Gutenberg/FormSelector.php:333
+#: src/Integrations/Gutenberg/FormSelector.php:335
 msgid "Update WordPress to the latest version to use our modern markup and unlock the controls below."
 msgstr "Aktualizujte WordPress na nejnovější verzi, abyste mohli používat naše moderní značení a odemknout ovládací prvky níže."
 
@@ -473,27 +473,27 @@ msgstr "Automaticky"
 msgid "Free Plugins"
 msgstr "Bezplatné Pluginy"
 
-#: src/Forms/IconChoices.php:454
+#: src/Forms/IconChoices.php:481
 msgid "Done!"
 msgstr "Hotovo!"
 
-#: includes/fields/class-base.php:1578
+#: includes/fields/class-base.php:1600
 msgid "Icon Size"
 msgstr "Velikost ikony"
 
-#: includes/fields/class-base.php:1538
+#: includes/fields/class-base.php:1560
 msgid "Icon Color"
 msgstr "Barva ikony"
 
-#: src/Admin/Builder/AntiSpam.php:108
+#: src/Admin/Builder/AntiSpam.php:110
 msgid "Also Available"
 msgstr "Také dostupný"
 
-#: src/Admin/Builder/AntiSpam.php:248
+#: src/Admin/Builder/AntiSpam.php:327
 msgid "Ask custom questions or require your visitor to answer a random math puzzle."
 msgstr "Pokládejte vlastní otázky nebo požádejte Vašeho návštěvníka, aby odpověděl na náhodnou matematickou hádanku."
 
-#: src/Admin/Builder/AntiSpam.php:167
+#: src/Admin/Builder/AntiSpam.php:184
 msgid "Automated tests that help to prevent bots from submitting your forms."
 msgstr "Automatické testy, které pomáhají zabránit robotům v odesílání Vašich formulářů."
 
@@ -502,7 +502,9 @@ msgid "Protection"
 msgstr "Ochrana"
 
 #: src/Admin/Builder/Traits/ContentInput.php:310
-#: src/Integrations/Gutenberg/FormSelector.php:344
+#: src/Integrations/Elementor/WidgetModern.php:174
+#: src/Integrations/Elementor/WidgetModern.php:295
+#: src/Integrations/Gutenberg/FormSelector.php:346
 msgid "Text"
 msgstr "Text"
 
@@ -510,11 +512,11 @@ msgstr "Text"
 msgid "<h4>Add Text and Images to Your Form With Ease</h4> <p>To get started, replace this text with your own.</p>"
 msgstr "<h4>Přidejte text a obrázky do svého formuláře snadno</h4> <p>Chcete-li začít, nahraďte tento text svým vlastním.</p>"
 
-#: src/Admin/Builder/AntiSpam.php:257
+#: src/Admin/Builder/AntiSpam.php:336
 msgid "Add Google's free anti-spam service and choose between visible or invisible CAPTCHAs."
 msgstr "Přidejte si bezplatnou antispamovou službu Google a vyberte si mezi viditelnými nebo neviditelnými CAPTCHA."
 
-#: src/Admin/Builder/AntiSpam.php:250
+#: src/Admin/Builder/AntiSpam.php:329
 msgid "Add to Form"
 msgstr "Přidat do formuláře"
 
@@ -531,11 +533,11 @@ msgstr "Základní nastavení Anti-Spam"
 msgid "Behind-the-scenes spam filtering that's invisible to your visitors."
 msgstr "Filtrování spamu ze zákulisí, které je pro Vaše návštěvníky neviditelné."
 
-#: src/Admin/Builder/AntiSpam.php:239
+#: src/Admin/Builder/AntiSpam.php:318
 msgid "Block form entries that contain specific words or phrases that you define."
 msgstr "Blokovat položky formuláře, které obsahují konkrétní slova nebo fráze, které definujete."
 
-#: src/Admin/Builder/AntiSpam.php:229
+#: src/Admin/Builder/AntiSpam.php:308
 msgid "Country Filter"
 msgstr "Filtr země"
 
@@ -543,11 +545,11 @@ msgstr "Filtr země"
 msgid "Favorite Templates"
 msgstr "Oblíbené šablony"
 
-#: src/Admin/Builder/AntiSpam.php:238
+#: src/Admin/Builder/AntiSpam.php:317
 msgid "Keyword Filter"
 msgstr "Filtr klíčových slov"
 
-#: src/Admin/Builder/AntiSpam.php:281
+#: src/Admin/Builder/AntiSpam.php:360
 msgid "Integrate the powerful spam-fighting service trusted by millions of sites."
 msgstr "Integrujte výkonnou službu pro boj se spamem, které důvěřují miliony webů."
 
@@ -563,7 +565,7 @@ msgstr "Přidat Média"
 msgid "Uploaded to this form"
 msgstr "Nahráno k tomuto formuláři"
 
-#: includes/class-process.php:190
+#: includes/class-process.php:218
 msgid "Your form has not been submitted because data is missing from the entry."
 msgstr "Váš formulář nebyl odeslán, protože v záznamu chybí data."
 
@@ -618,20 +620,20 @@ msgstr "Odstranit z oblíbených"
 msgid "WPForms Templates"
 msgstr "WPForms Šablony"
 
-#: includes/fields/class-internal-information.php:603
+#: includes/fields/class-internal-information.php:605
 msgid "Dismiss"
 msgstr "Zamítnout"
 
-#: includes/fields/class-internal-information.php:741
+#: includes/fields/class-internal-information.php:743
 msgid "This field is disabled in the editor mode."
 msgstr "Toto pole je v režimu editoru zakázáno."
 
-#: src/Forms/Akismet.php:184
+#: src/Forms/Akismet.php:182
 msgid "Anti-spam verification failed, please try again later."
 msgstr "Anti-spamové ověření se nezdařilo, zkuste to prosím znovu později."
 
-#. translators: %d - a taxonomy term ID.
-#: includes/functions/form-fields.php:351
+#. translators: %d - taxonomy term ID.
+#: includes/functions/form-fields.php:358
 msgid "#%d (no name)"
 msgstr "#%d (beze jména)"
 
@@ -653,7 +655,7 @@ msgstr "Vlastní"
 msgid "This field is not editable"
 msgstr "Toto pole nelze upravovat"
 
-#. translators: %s: WP_ENVIRONMENT_TYPES.
+#. translators: %s - WP_ENVIRONMENT_TYPES.
 #: includes/compat.php:39
 msgid "The %s constant is no longer supported."
 msgstr "Konstanta %s již není podporována."
@@ -662,7 +664,7 @@ msgstr "Konstanta %s již není podporována."
 msgid "Internal Information"
 msgstr "Interní informace"
 
-#: src/Admin/Builder/AntiSpam.php:206
+#: src/Admin/Builder/AntiSpam.php:285
 msgid "Enable Akismet anti-spam protection"
 msgstr "Povolit antispamovou ochranu Akismet"
 
@@ -687,19 +689,19 @@ msgstr "Zadejte text pro záhlaví pole formuláře."
 msgid "Expanded Content"
 msgstr "Rozšířený obsah"
 
-#. translators: %1$s - Link to the plugins page, %2$s - Link to the WPForms.com
+#. translators: %1$s - link to the plugins page, %2$s - link to the WPForms.com
 #. doc article.
 #: includes/admin/builder/class-builder.php:713
 msgid "This feature cannot be used at this time because the Akismet plugin <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">has not been activated</a>. For information on how to use this feature please <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">refer to our documentation</a>."
 msgstr "Tuto funkci v tuto chvíli nelze použít, protože plugin Akismet <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">nebyl aktivován</a>. Informace o použití této funkce <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">naleznete v naší dokumentaci</a>."
 
-#. translators: %1$s - Link to the plugin search page, %2$s - Link to the
+#. translators: %1$s - link to the plugin search page, %2$s - link to the
 #. WPForms.com doc article.
 #: includes/admin/builder/class-builder.php:692
 msgid "This feature cannot be used at this time because the Akismet plugin <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">has not been installed</a>. For information on how to use this feature please <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">refer to our documentation</a>."
 msgstr "Tuto funkci v tuto chvíli nelze použít, protože plugin Akismet <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">není nainstalován</a>. Informace o použití této funkce <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">naleznete v naší dokumentaci</a>."
 
-#. translators: %1$s - Link to the Akismet settings page, %2$s - Link to the
+#. translators: %1$s - link to the Akismet settings page, %2$s - link to the
 #. WPForms.com doc article.
 #: includes/admin/builder/class-builder.php:734
 msgid "This feature cannot be used at this time because the Akismet plugin <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">has not been properly configured</a>. For information on how to use this feature please <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">refer to our documentation</a>."
@@ -709,7 +711,7 @@ msgstr "Tuto funkci v tuto chvíli nelze použít, protože plugin Akismet <a hr
 msgid "Please fill out the field in required format."
 msgstr "Vyplňte prosím pole v požadovaném formátu."
 
-#: includes/admin/class-about.php:577 lite/wpforms-lite.php:632
+#: includes/admin/class-about.php:577 lite/wpforms-lite.php:638
 msgid "Take payments with PayPal Commerce, Stripe Pro, Square, Authorize.Net, and PayPal Standard"
 msgstr "Přijímejte platby pomocí PayPal Commerce, Stripe Pro, Square, Authorize.Net a PayPal Standard"
 
@@ -815,7 +817,7 @@ msgstr "Chcete být VIP? Přidejte se hned teď!"
 msgid "We’re grateful that you chose WPForms for your website! Now that you’ve installed the plugin, you’re less than 5 minutes away from publishing your first form. To make it easy, we’ve got %s form templates to get you started!"
 msgstr "Jsme vděční, že jste si pro svůj web vybrali WPForms! Nyní, když jste plugin nainstalovali, od publikování prvního formuláře Vás dělí méně než 5 minut. Abychom vám to usnadnili, máme více než %s šablon formulářů, které vám pomohou začít!"
 
-#. translators: Used between list items, there is a space after the comma.
+#. translators: used between list items, there is a space after the comma.
 #: src/Admin/Forms/Tags.php:393
 msgid ", "
 msgstr ", "
@@ -876,7 +878,7 @@ msgstr "Chcete-li aktualizovat tagy v seznamu formulářů, obnovte stránku."
 msgid "1 tag was successfully deleted."
 msgstr "1 tag byl úspěšně smazán."
 
-#. translators: %d - Number of forms selected for Bulk Edit.
+#. translators: %d - number of forms selected for Bulk Edit.
 #: src/Admin/Forms/Tags.php:267
 msgid "<strong>%d forms</strong> selected for Bulk Edit."
 msgstr "Pro hromadné úpravy bylo vybráno <strong>%d formulářů</strong>."
@@ -889,7 +891,7 @@ msgstr "Pro hromadné úpravy byl vybrán <strong>1 formulář</strong>."
 msgid "Delete tags that you're no longer using. Deleting a tag will remove it from a form, but will not delete the form itself."
 msgstr "Smažte tagy, které již nepoužíváte. Odstraněním tagu se odstraní z formuláře, ale neodstraní se samotný formulář."
 
-#: includes/fields/class-email.php:1046
+#: includes/fields/class-email.php:1047
 msgid "We’ve detected the same text in your allowlist and denylist. To prevent a conflict, we’ve removed the following text from the list you’re currently viewing:"
 msgstr "Ve seznamu povolených a zamítnutých jsme našli stejný text. Abychom předešli konfliktu, odstranili jsme následující text ze seznamu, který si právě prohlížíte:"
 
@@ -901,7 +903,7 @@ msgstr "Turecko"
 msgid "No forms selected when trying to add a tag to them."
 msgstr "Při pokusu o přidání tagu nebyly vybrány žádné formuláře."
 
-#. translators: %d - Number of forms selected for Bulk Edit.
+#. translators: %d - number of forms selected for Bulk Edit.
 #: src/Admin/Forms/Tags.php:278
 msgid "You have <strong>%d tags</strong> selected for deletion."
 msgstr "Vybrali jste <strong>%d tagů</strong> ke smazání."
@@ -948,7 +950,7 @@ msgstr "WordPress"
 msgid "Bar"
 msgstr "Lišta"
 
-#. translators: %s - Upgrade to WPForms PRO landing page URL.
+#. translators: %s - upgrade to WPForms Pro landing page URL.
 #: src/Lite/Integrations/LiteConnect/LiteConnect.php:134
 msgid "<strong>Your form entries are not being stored in WordPress, and your entry backups are not active.</strong> If there's a problem with deliverability, you'll lose form entries. We recommend that you enable Entry Backups, especially if you're considering <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"wpforms-upgrade-modal\">upgrading to WPForms PRO</a>."
 msgstr "<strong>Záznamy formuláře se neukládají ve WordPressu a zálohy záznamů nejsou aktivní.</strong> Pokud dojde k problému s doručitelností, ztratíte záznamy formuláře. Doporučujeme povolit zálohy záznamů zvláště pokud zvažujete <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"wpforms-upgrade-modal\"> upgrade na WPForms PRO</a>."
@@ -978,7 +980,7 @@ msgstr "Povolit zálohování záznamů formuláře Zdarma"
 msgid "Entry Backups Disabled"
 msgstr "Zálohování záznamů zakázáno"
 
-#. translators: %s - Upgrade to WPForms PRO landing page URL.
+#. translators: %s - upgrade to WPForms Pro landing page URL.
 #: src/Lite/Integrations/LiteConnect/LiteConnect.php:119
 msgid "<strong>Your form entries are not being stored locally, but are backed up remotely.</strong> If you <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"wpforms-upgrade-modal\">upgrade to WPForms PRO</a>, you can restore your entries and they’ll be available in the WordPress dashboard."
 msgstr "<strong>Záznamy formuláře se neukládají lokálně, ale zálohují se vzdáleně.</strong> Pokud <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"wpforms-upgrade-modal\">upgradujete na WPForms PRO</a>, můžete záznamy obnovit a budou k dispozici na hlavním panelu WordPress."
@@ -995,7 +997,7 @@ msgstr "(bez názvu)"
 msgid "No Thanks"
 msgstr "Ne, děkuji"
 
-#. translators: %d - Number of days.
+#. translators: %d - number of days.
 #: src/Admin/Dashboard/Widget.php:268
 msgid "Last %d day"
 msgid_plural "Last %d days"
@@ -1011,7 +1013,7 @@ msgstr "Neaktivní widgety"
 msgid "Are you sure?"
 msgstr "Jste si jistý?"
 
-#: src/Lite/Admin/DashboardWidget.php:416
+#: src/Lite/Admin/DashboardWidget.php:427
 msgid "Dismiss recommended plugin"
 msgstr "Odmítnout doporučený plugin"
 
@@ -1023,7 +1025,7 @@ msgstr "WPForms Widget"
 msgid "This is a preview of the latest saved revision of your form. If this preview does not match your form, save your changes and then refresh this page. This form preview is not publicly accessible."
 msgstr "Toto je náhled poslední uložené revize Vašeho formuláře. Pokud tento náhled neodpovídá Vašemu formuláři, uložte změny a poté tuto stránku obnovte. Tento náhled formuláře není veřejně přístupný."
 
-#. translators: %s - Time when Lite Connect was enabled.
+#. translators: %s - time when Lite Connect was enabled.
 #: src/Lite/Admin/Education/Admin/DidYouKnow.php:172
 #: src/Lite/Admin/Education/LiteConnect.php:267
 msgid "since %s"
@@ -1037,7 +1039,7 @@ msgstr "Vyberte časové období"
 msgid "View form locations"
 msgstr "Zobrazení umístění formuláře"
 
-#: lite/wpforms-lite.php:930
+#: lite/wpforms-lite.php:937
 msgid "Upgrade to WPForms Pro & Restore Form Entries"
 msgstr "Upgradujte na WPForms Pro a obnovte záznamy formuláře"
 
@@ -1049,7 +1051,7 @@ msgstr "Umístění formuláře"
 msgid "Form Locations"
 msgstr "Umístění formuláře"
 
-#. translators: %d - Backed up entries count.
+#. translators: %d - backed up entries count.
 #: src/Lite/Admin/Education/Admin/DidYouKnow.php:159
 #: src/Lite/Admin/Education/LiteConnect.php:254
 msgid "%d entry backed up"
@@ -1058,8 +1060,8 @@ msgstr[0] "%d záznam zálohován"
 msgstr[1] "%d záznamy zálohovány"
 msgstr[2] "%d záznamů zálohováno"
 
-#. translators: %d - Backed up entries count.
-#: lite/wpforms-lite.php:909
+#. translators: %d - backed up entries count.
+#: lite/wpforms-lite.php:916
 msgid "%d entry has been backed up"
 msgid_plural "%d entries have been backed up"
 msgstr[0] "Záznam %d byl zálohován"
@@ -1092,8 +1094,8 @@ msgstr "Pokud zakážete Lite Connect, nebudete již moci obnovit své záznamy 
 msgid "Entries are available through email notifications. If you enable Entry Backups, you can restore them once you upgrade to WPForms Pro."
 msgstr "Příspěvky jsou dostupné prostřednictvím e-mailových upozornění. Pokud povolíte Zálohy záznamů, můžete je obnovit, jakmile upgradujete na WPForms Pro."
 
-#. translators: %s - Time when Lite Connect was enabled.
-#: lite/wpforms-lite.php:923
+#. translators: %s - time when Lite Connect was enabled.
+#: lite/wpforms-lite.php:930
 msgid "since you enabled Lite Connect on %s"
 msgstr "protože jste na %s aktivovali Lite Connect"
 
@@ -1185,13 +1187,13 @@ msgstr "Bezpečnost a ochrana."
 msgid "The WPForms plugin is disabled because it requires WordPress %s or later."
 msgstr "Plugin WPForms je zakázán, protože vyžaduje WordPress %s nebo vyšší."
 
-#. translators: %d Maximum number of revisions to keep.
+#. translators: %d - maximum number of revisions to keep.
 #: templates/builder/revisions/notice-limited.php:20
 msgid "Revisions are enabled, but they’re limited to %d. You can increase this by making a simple change to your WordPress configuration."
 msgstr "Revize jsou povoleny, ale jsou omezeny na %d. To můžete zvýšit jednoduchou změnou konfigurace WordPressu."
 
-#. translators: %s - Relative time difference, e.g. "5 minutes", "12 days".
-#: src/Admin/Payments/Views/Overview/Table.php:576 src/Admin/Revisions.php:331
+#. translators: %s - relative time difference, e.g. "5 minutes", "12 days".
+#: src/Admin/Payments/Views/Overview/Table.php:578 src/Admin/Revisions.php:331
 msgid "%s ago"
 msgstr "Před %s"
 
@@ -1222,11 +1224,7 @@ msgstr "Vysypat koš"
 msgid "You’re about to save a form revision. Continuing will make this the current version."
 msgstr "Chystáte se uložit revizi formuláře. Pokračováním bude tato verze aktuální."
 
-#. translators: %1$s - date, %2$s - time when payment was created, e.g. "Oct 22
-#. at 11:11am".
-#. translators: %1$s - date, %2$s - time when revision was created, e.g. "Dec
-#. 25 at 12:57pm".
-#. translators: %1$s - date, %2$s - time when log was created, e.g. "Oct 22 at
+#. translators: %1$s - date, %2$s - time when item was created, e.g. "Oct 22 at
 #. 11:11am".
 #: src/Admin/Payments/Views/Single.php:739 src/Admin/Revisions.php:336
 #: templates/admin/payments/single/log.php:35
@@ -1272,7 +1270,7 @@ msgstr "Zpět na všechny formuláře"
 msgid "You've Already Started - Here's the Next Step (It's Easy)"
 msgstr "Už jste začali – zde je další krok (je to snadné)"
 
-#: src/Admin/Forms/Views.php:64 src/Admin/Payments/Views/Overview/Table.php:837
+#: src/Admin/Forms/Views.php:64 src/Admin/Payments/Views/Overview/Table.php:839
 msgid "All"
 msgstr "Všechny"
 
@@ -1308,7 +1306,7 @@ msgstr "Tento formulář nemůžete upravit, protože je v koši."
 
 #: src/Admin/Forms/BulkActions.php:289 src/Admin/Forms/Views.php:69
 #: src/Admin/Forms/Views.php:475
-#: src/Admin/Payments/Views/Overview/Table.php:848
+#: src/Admin/Payments/Views/Overview/Table.php:850
 msgid "Trash"
 msgstr "Koš"
 
@@ -1324,7 +1322,7 @@ msgstr "Nenávratně smazat tento formulář"
 msgid "Revisions"
 msgstr "Revize"
 
-#. translators: %d - Trashed forms count.
+#. translators: %d - trashed forms count.
 #: src/Admin/Forms/BulkActions.php:358
 msgid "%d form was successfully moved to Trash."
 msgid_plural "%d forms were successfully moved to Trash."
@@ -1332,7 +1330,7 @@ msgstr[0] "%d formulář byl úspěšně přesunut do koše."
 msgstr[1] "%d formuláře byly úspěšně přesunuty do koše."
 msgstr[2] "%d formulářů bylo úspěšně přesunuto do koše."
 
-#. translators: %d - Deleted forms count.
+#. translators: %d - deleted forms count.
 #: src/Admin/Forms/BulkActions.php:372
 msgid "%d form was successfully permanently deleted."
 msgid_plural "%d forms were successfully permanently deleted."
@@ -1367,14 +1365,14 @@ msgstr "Opravdu chcete smazat VŠECHNY formuláře v koši a všechny jejich zá
 msgid "Check this option to enable sending emails asynchronously, which can make submission processing faster but may delay email delivery by a minute or two. Learn more <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">in our documentation</a>."
 msgstr "Zaškrtnutím této možnosti povolíte odesílání e-mailů asynchronně, což může urychlit zpracování odeslání, ale může zpozdit doručení e-mailu o minutu nebo dvě. Více informace najdete <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">v naší dokumentaci</a>."
 
-#. translators: %1$s - An addon download URL, %2$s - Link to manual
-#. installation guide.
+#. translators: %1$s - addon download URL, %2$s - link to manual installation
+#. guide.
 #: includes/admin/admin.php:161 includes/admin/ajax-actions.php:687
 msgid "Could not install the addon. Please <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">download it from wpforms.com</a> and <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">install it manually</a>."
 msgstr "Doplněk nelze nainstalovat. <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">stáhněte si ho z webu wpforms.com</a> a <a href=\"%2$s\" target=\"_blank\" rel =\"noopener noreferrer\">nainstalujte ručně</a>."
 
-#. translators: %d - a post ID.
-#: includes/functions/form-fields.php:334
+#. translators: %d - post ID.
+#: includes/functions/form-fields.php:341
 msgid "#%d (no title)"
 msgstr "#%d (bez názvu)"
 
@@ -1402,7 +1400,7 @@ msgstr "Níže je uveden celkový počet příspěvků pro každý formulář, a
 msgid "Clear search and return to All Forms"
 msgstr "Vymazat vyhledávání a vrátit se na Všechny formuláře"
 
-#. translators: %s - The WPForms Overview page URL.
+#. translators: %s - forms overview page URL.
 #: src/Integrations/DefaultContent/DefaultContent.php:63
 msgctxt "Theme starter content"
 msgid "Create your <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">contact form</a> with WPForms in minutes."
@@ -1444,7 +1442,7 @@ msgstr "AffiliateWP"
 msgid "SearchWP"
 msgstr "SearchWP"
 
-#: includes/admin/class-about.php:581 lite/wpforms-lite.php:633
+#: includes/admin/class-about.php:581 lite/wpforms-lite.php:639
 msgid "Collect signatures, geolocation data, and file uploads"
 msgstr "Sbírejte podpisy, geolokační data a nahrávání souborů"
 
@@ -1460,7 +1458,7 @@ msgstr "WP Simple Pay"
 msgid "WP Simple Pay Pro"
 msgstr "WP Simple Pay Pro"
 
-#: includes/admin/class-about.php:569 lite/wpforms-lite.php:630
+#: includes/admin/class-about.php:569 lite/wpforms-lite.php:636
 msgid "5000+ integrations with marketing and payment services"
 msgstr "Více než 5000 integrací s marketingovými a platebními službami"
 
@@ -1469,11 +1467,11 @@ msgid "The most advanced WordPress search plugin. Customize your WordPress searc
 msgstr "Nejpokročilejší vyhledávací plugin WordPress. Přizpůsobte si svůj vyhledávací algoritmus WordPress, změňte pořadí výsledků vyhledávání, sledujte metriky vyhledávání a vše, co potřebujete k využití vyhledávání k růstu Vašeho podnikání."
 
 #. translators: %s - number of templates.
-#: includes/admin/class-about.php:542 lite/wpforms-lite.php:619
+#: includes/admin/class-about.php:542 lite/wpforms-lite.php:625
 msgid "%s customizable form templates"
 msgstr "%s přizpůsobitelných šablon formulářů"
 
-#: includes/admin/class-about.php:553 lite/wpforms-lite.php:625
+#: includes/admin/class-about.php:553 lite/wpforms-lite.php:631
 msgid "Unlock all fields & features, including Rich Text & conditional logic"
 msgstr "Odemkněte všechna pole & funkce, včetně formátovaného textu a podmíněné logiky"
 
@@ -1502,9 +1500,9 @@ msgstr "Používá více než 2 miliony webů."
 msgid "Taiwan, Republic of China"
 msgstr "Tchaj-wan, Čínská republika"
 
-#. translators: %1$.3f - the total size of the selected files in megabytes,
-#. %2$.3f - allowed file upload limit in megabytes.
-#: includes/class-process.php:895
+#. translators: %1$.3f - total size of the selected files in megabytes, %2$.3f
+#. - allowed file upload limit in megabytes.
+#: includes/class-process.php:1265
 msgid "The total size of the selected files %1$.3f MB exceeds the allowed limit %2$.3f MB."
 msgstr "Celková velikost vybraných souborů %1$.3f Mb překračuje povolený limit %2$.3f Mb."
 
@@ -1539,8 +1537,8 @@ msgstr "%1$s z %2$s maximálního počtu znaků."
 msgid "%1$s of %2$s max words."
 msgstr "%1$s z %2$s maximálního počtu slov."
 
-#: includes/admin/builder/panels/class-fields.php:439
-#: includes/fields/class-base.php:2557
+#: includes/admin/builder/panels/class-fields.php:452
+#: includes/fields/class-base.php:2587
 msgid "Hide Helper"
 msgstr "Skrýt pomocníka"
 
@@ -1559,15 +1557,15 @@ msgid "Limit is %1$s words. Words remaining: %2$s."
 msgstr "Limitem je %1$s slov. Počet zbývajících slov: %2$s."
 
 #: includes/admin/builder/class-builder.php:664
-#: includes/fields/class-base.php:2160
+#: includes/fields/class-base.php:2182
 msgid "Empty Label"
 msgstr "Prázdný popisek"
 
-#: includes/fields/class-base.php:2161
+#: includes/fields/class-base.php:2183
 msgid "Label Hidden"
 msgstr "Skryté označení"
 
-#: includes/fields/class-base.php:2162
+#: includes/fields/class-base.php:2184
 msgid "To ensure your form is accessible, every field should have a descriptive label. If you'd like to hide the label, you can do so by enabling Hide Label in the Advanced Field Options tab."
 msgstr "Aby byl Váš formulář přístupný, mělo by mít každé pole popisný štítek. Pokud chcete štítek skrýt, můžete tak učinit povolením Skrýt štítek na kartě Rozšířené možnosti pole."
 
@@ -1575,7 +1573,7 @@ msgstr "Aby byl Váš formulář přístupný, mělo by mít každé pole popisn
 msgid "WP Mail SMTP fixes deliverability problems with your WordPress emails and form notifications. It's built by the same folks behind WPForms."
 msgstr "WP Mail SMTP řeší problémy s doručitelností Vašich e-mailů WordPress a oznámení o formulářích. Je vyvíjen stejnými lidmi za WPForms."
 
-#: src/Admin/Education/Core.php:98
+#: src/Admin/Education/Core.php:102
 msgid "Addon activated"
 msgstr "Doplněk byl aktivován"
 
@@ -1584,7 +1582,7 @@ msgstr "Doplněk byl aktivován"
 msgid "%s plugin"
 msgstr "%s plugin"
 
-#: src/Admin/Education/Fields.php:202 src/Db/Payments/ValueValidator.php:72
+#: src/Admin/Education/Fields.php:207 src/Db/Payments/ValueValidator.php:72
 msgid "Square"
 msgstr "Čtverec"
 
@@ -1596,15 +1594,15 @@ msgstr "Něco se pokazilo"
 msgid "Stripe Credit Card"
 msgstr "Stripe kreditní karta"
 
-#: src/Admin/Builder/Templates.php:143 src/Admin/Education/Core.php:100
+#: src/Admin/Builder/Templates.php:143 src/Admin/Education/Core.php:104
 msgid "Activating"
 msgstr "Aktivace"
 
-#: src/Admin/Education/Core.php:104
+#: src/Admin/Education/Core.php:112
 msgid "Installing"
 msgstr "Instalace"
 
-#: src/Admin/Education/Core.php:99
+#: src/Admin/Education/Core.php:103
 msgid "Plugin activated"
 msgstr "Plugin byl aktivován"
 
@@ -1617,19 +1615,19 @@ msgstr "Plugin nelze nainstalovat automaticky. Prosím, stáhněte ho a nainstal
 msgid "Could not install the plugin automatically. Please <a href=\"%s\">download</a> it and install it manually."
 msgstr "Plugin nelze nainstalovat automaticky. Prosím, <a href=\"%s\">stáhněte ho</a> a nainstalujte ručně."
 
-#: src/Admin/Education/Core.php:97
+#: src/Admin/Education/Core.php:101
 msgid "Yes, activate"
 msgstr "Ano, aktivovat"
 
-#: src/Admin/Builder/Templates.php:146 src/Admin/Education/Core.php:103
+#: src/Admin/Builder/Templates.php:146 src/Admin/Education/Core.php:111
 msgid "Yes, install and activate"
 msgstr "Ano, instalovat a aktivovat"
 
-#: src/Admin/Education/Core.php:107
+#: src/Admin/Education/Core.php:114
 msgid "Yes, save and refresh"
 msgstr "Ano, uložit a obnovit"
 
-#: src/Admin/Education/Core.php:106
+#: src/Admin/Education/Core.php:113
 msgid "Almost done! Would you like to save and refresh the form builder?"
 msgstr "Skoro hotovo! Chcete uložit a obnovit tvůrce formulářů?"
 
@@ -1638,17 +1636,17 @@ msgid "Build powerful automations that control what happens on form submission. 
 msgstr "Vybudujte výkonnou automatizaci, která řídí, co se stane při odeslání formuláře. Pomocí Uncanny Automator propojte své formuláře s Tabulkami Google, Zoomem, sociálními médii, pluginy pro členství, e-learningovými platformami a dalšími."
 
 #. translators: %s - addon name.
-#: src/Admin/Education/Core.php:112
+#: src/Admin/Education/Core.php:131
 msgid "The %s is not installed. Please install and activate it to use this feature."
 msgstr "%s není nainstalován. Pro použití této funkce jej prosím nainstalujte a aktivujte."
 
 #. translators: %s - addon name.
-#: src/Admin/Education/Core.php:102
+#: src/Admin/Education/Core.php:107
 msgid "The %s is not installed. Would you like to install and activate it?"
 msgstr "%s není nainstalován. Chcete jej nainstalovat a aktivovat?"
 
 #. translators: %s - addon name.
-#: src/Admin/Education/Core.php:96
+#: src/Admin/Education/Core.php:97
 msgid "The %s is installed but not activated. Would you like to activate it?"
 msgstr "%s je nainstalován, ale není aktivován. Chcete jej aktivovat?"
 
@@ -1656,11 +1654,11 @@ msgstr "%s je nainstalován, ale není aktivován. Chcete jej aktivovat?"
 msgid "Entry Preview"
 msgstr "Náhled vstupu"
 
-#: src/Admin/Builder/Shortcuts.php:73
+#: src/Admin/Builder/Shortcuts.php:75
 msgid "Keyboard Shortcuts"
 msgstr "Klávesové zkratky"
 
-#: src/Admin/Builder/Shortcuts.php:54
+#: src/Admin/Builder/Shortcuts.php:55
 msgid "Open Help"
 msgstr "Zobrazit nápovědu"
 
@@ -1701,8 +1699,8 @@ msgstr "Knihovnu Action Scheduler používají také další pluginy, jako je WP
 msgid "Addon"
 msgstr "Doplněk"
 
-#: includes/admin/builder/panels/class-fields.php:437
-#: includes/fields/class-base.php:2555
+#: includes/admin/builder/panels/class-fields.php:450
+#: includes/fields/class-base.php:2585
 msgid "Click to Edit"
 msgstr "Kliknout pro editaci"
 
@@ -1710,8 +1708,8 @@ msgstr "Kliknout pro editaci"
 msgid "Addon Templates"
 msgstr "Šablony doplňků"
 
-#: includes/admin/builder/panels/class-fields.php:438
-#: includes/fields/class-base.php:2556
+#: includes/admin/builder/panels/class-fields.php:451
+#: includes/fields/class-base.php:2586
 msgid "Drag to Reorder"
 msgstr "Přetažením změníte pořadí"
 
@@ -1723,16 +1721,16 @@ msgstr "Blok HTML / Kódu"
 msgid "Create Blank Form"
 msgstr "Vytvořit prázdný formulář"
 
-#: lite/wpforms-lite.php:155
+#: lite/wpforms-lite.php:159
 msgid "Enable Notifications"
 msgstr "Povolit oznámení"
 
-#: lite/wpforms-lite.php:314
+#: lite/wpforms-lite.php:320
 msgid "Email Message"
 msgstr "E-mailová zpráva"
 
-#. translators: 1$s, %2$s - Links to the WPForms.com doc articles.
-#: lite/wpforms-lite.php:133
+#. translators: 1$s, %2$s - links to the WPForms.com doc articles.
+#: lite/wpforms-lite.php:137
 msgid "After saving these settings, be sure to <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">test a form submission</a>. This lets you see how emails will look, and to ensure that they <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">are delivered successfully</a>."
 msgstr "Po uložení těchto nastavení nezapomeňte <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">otestovat odeslání formuláře</a>. To vám umožní vidět, jak budou e-maily vypadat, a zajistit<br><a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">aby byly úspěšně doručovány</a>."
 
@@ -1740,7 +1738,7 @@ msgstr "Po uložení těchto nastavení nezapomeňte <a href=\"%1$s\" target=\"_
 msgid "Smart Logic"
 msgstr "Chytrá logika"
 
-#. translators: %s - Provider name.
+#. translators: %s - provider name.
 #: src/Providers/Provider/Settings/FormBuilder.php:450
 msgid "Get the most out of WPForms &mdash; use it with an active %s account."
 msgstr "Využijte WPForms na maximum &mdash; používejte jej s aktivním účtem %s."
@@ -1761,12 +1759,12 @@ msgstr "Vlastní šablony"
 msgid "Search Templates"
 msgstr "Hledat šablony"
 
-#: includes/fields/class-base.php:1265
+#: includes/fields/class-base.php:1287
 msgid "Dynamic Choices Active"
 msgstr "Dynamické volby aktivní"
 
-#. translators: %1$s - source name; %2$s - type name.
-#: includes/fields/class-base.php:1269
+#. translators: %1$s - source name, %2$s - type name.
+#: includes/fields/class-base.php:1291
 msgid "Choices are dynamically populated from the %1$s %2$s. Go to the Advanced tab to change this."
 msgstr "Možnosti jsou dynamicky vyplňovány z %1$s %2$s. Pro změnu přejděte na kartu Pokročilé."
 
@@ -1774,14 +1772,15 @@ msgstr "Možnosti jsou dynamicky vyplňovány z %1$s %2$s. Pro změnu přejděte
 msgid "Learn more about the power of email marketing."
 msgstr "Další informace o síle e-mailového marketingu."
 
-#. translators: %1$s - Create template doc link; %2$s - Contact us page link.
+#. translators: %1$s - create template doc link, %2$s - Contact us page link.
 #: includes/admin/builder/panels/class-setup.php:70
 msgid "To speed up the process you can select from one of our pre-made templates, start with a <a href=\"#\" class=\"wpforms-trigger-blank\">blank form</a> or <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">create your own</a>. Have a suggestion for a new template? <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">We’d love to hear it</a>!"
 msgstr "Chcete-li proces urychlit, můžete si vybrat z jedné z našich před-připravených šablon, začněte <a href=\"#\" class=\"wpforms-trigger-blank\">prázdným formulářem</a> nebo <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">vytvořte vlastní</a>. Máte návrh na novou šablonu? <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Rádi si to poslechneme</a>!"
 
 #: includes/admin/builder/panels/class-settings.php:302
-#: includes/fields/class-base.php:1759
-#: src/Integrations/Gutenberg/FormSelector.php:323
+#: includes/fields/class-base.php:1781
+#: src/Integrations/Elementor/WidgetModern.php:318
+#: src/Integrations/Gutenberg/FormSelector.php:325
 #: src/Lite/Admin/Education/Builder/Notifications.php:119
 msgid "Advanced"
 msgstr "Pokročilé"
@@ -1806,11 +1805,11 @@ msgstr "Odejít Ctrl+Q"
 msgid "Embed Form Ctrl+B"
 msgstr "Vložení formuláře Ctrl+B"
 
-#: includes/admin/builder/panels/class-fields.php:538
+#: includes/admin/builder/panels/class-fields.php:551
 msgid "Dismiss this message. The field will be deleted as well."
 msgstr "Odmítnout tuto zprávu. Pole bude také odstraněno."
 
-#. translators: %1$s - Link to the update Internet Explorer page, %2$s - link
+#. translators: %1$s - link to the update Internet Explorer page, %2$s - link
 #. to the browse happy page.
 #: templates/builder/fullscreen/ie-notice.php:22
 msgid "The Internet Explorer browser no more supported.<br>Our form builder is optimized for modern browsers.<br>Please <a href=\"%1$s\" target=\"_blank\" rel=\"nofollow noopener\">install Microsoft Edge</a> or learn<br>how to <a href=\"%2$s\" target=\"_blank\" rel=\"nofollow noopener\">browse happy</a>."
@@ -1831,10 +1830,6 @@ msgstr "Ano, použít šablonu"
 #: includes/admin/builder/class-builder.php:586
 msgid "Saving"
 msgstr "Ukládání"
-
-#: includes/admin/admin.php:257 includes/admin/builder/class-builder.php:660
-msgid "Something went wrong while applying the template."
-msgstr "Při použití šablony došlo k chybě."
 
 #: src/Admin/Builder/Templates.php:148
 msgid "Could not install OR activate all the required addons. Please download from wpforms.com and install them manually. Would you like to use the template anyway?"
@@ -1867,7 +1862,7 @@ msgid "Unknown Addon"
 msgstr "Neznámý doplněk"
 
 #: lite/templates/admin/addons.php:49
-#: src/Integrations/Gutenberg/FormSelector.php:335
+#: src/Integrations/Gutenberg/FormSelector.php:337
 msgid "Learn more"
 msgstr "Zjistit více"
 
@@ -1880,7 +1875,7 @@ msgstr "Váš týdenní souhrn WPForms pro %s"
 msgid "Something wrong. Please try again later."
 msgstr "Něco je špatně. Zkuste to prosím znovu."
 
-#: src/Admin/Education/Core.php:179
+#: src/Admin/Education/Core.php:228
 msgid "Please specify a section."
 msgstr "Uveďte prosím sekci."
 
@@ -1893,7 +1888,7 @@ msgid "Import was successfully finished."
 msgstr "Import byl úspěšně dokončen."
 
 #. translators: %s - field type.
-#: src/Admin/Tools/Importers/NinjaForms.php:490
+#: src/Admin/Tools/Importers/NinjaForms.php:494
 msgid "%s Field"
 msgstr "%s pole"
 
@@ -1905,7 +1900,7 @@ msgstr "Opravdu chcete smazat tento formulář a všechny jeho informace?"
 msgid "Are you sure you want to delete this entry and all its information (files, notes, logs, etc.)?"
 msgstr "Opravdu chcete smazat tento záznam a všechny jeho informace (soubory, poznámky, logy atd.)?"
 
-#. translators: %s - Forms list page URL.
+#. translators: %s - forms list page URL.
 #: src/Admin/Tools/Views/Import.php:160
 msgid "You can go and <a href=\"%s\">check your forms</a>."
 msgstr "Můžete <a href=\"%s\">zkontrolovat své formuláře</a>."
@@ -1958,7 +1953,7 @@ msgstr "Snadno zobrazujte obsah Twitteru ve WordPressu bez psaní jakéhokoli k�
 msgid "Easily display YouTube videos on your WordPress site without writing any code. Comes with multiple layouts, ability to embed live streams, video filtering, ability to combine multiple channel videos, and more."
 msgstr "Snadno zobrazujte YouTube videa na webu WordPress bez psaní jakéhokoli kódu. Dodává se s více rozvrženími, schopností vkládat živé přenosy, filtrováním videa, schopností kombinovat vícekanálová videa a dalšími."
 
-#. translators: %s - Provider name.
+#. translators: %s - provider name.
 #: src/Admin/Tools/Views/Importer.php:211
 msgid "Analyzing <span class=\"form-current\">1</span> of <span class=\"form-total\">0</span> forms from %s."
 msgstr "Analýza<span class=\"form-current\">1</span> z <span class=\"form-total\">0</span> formulářů z %s."
@@ -1972,7 +1967,7 @@ msgstr "Plugin nelze nainstalovat. Prosím, stáhněte ho a nainstalujte ručně
 msgid "Are you sure you want to delete %s entry(s) and all the information (files, notes, logs, etc.)?"
 msgstr "Opravdu chcete smazat %s záznam(ů) a všechny jeho informace (soubory, poznámky, logy atd.)?"
 
-#. translators: %s - Provider name.
+#. translators: %s - provider name.
 #: src/Admin/Tools/Views/Importer.php:255
 msgid "Importing <span class=\"form-current\">1</span> of <span class=\"form-total\">0</span> forms from %s."
 msgstr "Import<span class=\"form-current\">1</span> z <span class=\"form-total\">0</span> formulářů z %s."
@@ -2063,7 +2058,7 @@ msgid "Country"
 msgstr "Stát"
 
 #: src/Admin/Payments/Views/Overview/Helpers.php:50
-#: src/Providers/Provider/Settings/PageIntegrations.php:133
+#: src/Providers/Provider/Settings/PageIntegrations.php:135
 #: templates/admin/payments/single/payment-details.php:40
 msgid "N/A"
 msgstr "Nedostupné"
@@ -2097,7 +2092,7 @@ msgstr "Výkonné informace a funkce založené na poloze…"
 msgid "Postal/Zip Code"
 msgstr "Poštovní směrovací číslo"
 
-#: src/Providers/Provider/Settings/PageIntegrations.php:148
+#: src/Providers/Provider/Settings/PageIntegrations.php:150
 msgid "No Label"
 msgstr "Žádné označení"
 
@@ -2117,7 +2112,7 @@ msgstr "Vložená mapa ve formulářích"
 msgid "Google Places API"
 msgstr "Rozhraní Google Places API"
 
-#. translators: %d - Form ID
+#. translators: %d - form ID.
 #: src/Admin/AdminBarMenu.php:349
 msgid "Form ID: %d"
 msgstr "ID formuláře: %d"
@@ -2182,19 +2177,19 @@ msgstr "Tato CAPTCHA je generována pomocí Vašeho webu a tajných klíčů. Po
 msgid "Please save settings to generate a preview of your CAPTCHA here."
 msgstr "Prosím uložte nastavení, abyste zde vytvořili náhled svého CAPTCHA."
 
-#: src/Admin/Builder/AntiSpam.php:168
+#: src/Admin/Builder/AntiSpam.php:185
 #: src/Admin/Education/Builder/Captcha.php:120
 #: src/Admin/Settings/Captcha/Page.php:122
 #: src/Admin/Settings/Captcha/Page.php:145
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
-#: src/Admin/Builder/AntiSpam.php:247 src/Admin/Education/Fields.php:157
+#: src/Admin/Builder/AntiSpam.php:326 src/Admin/Education/Fields.php:157
 msgid "Custom Captcha"
 msgstr "Vlastní Captcha"
 
-#: src/Providers/Provider/Settings/PageIntegrations.php:236
-#: src/Providers/Provider/Settings/PageIntegrations.php:286
+#: src/Providers/Provider/Settings/PageIntegrations.php:238
+#: src/Providers/Provider/Settings/PageIntegrations.php:288
 msgid "Your session expired. Please reload the page."
 msgstr "Vaše relace vypršela. Prosím, obnovte stránku."
 
@@ -2202,7 +2197,7 @@ msgstr "Vaše relace vypršela. Prosím, obnovte stránku."
 msgid "A CAPTCHA is an anti-spam technique which helps to protect your website from spam and abuse while letting real people pass through with ease. WPForms supports two popular services."
 msgstr "CAPTCHA je anti-spamová technika, která pomáhá chránit Váš web před spamem a zneužitím a zároveň umožňuje skutečným lidem procházet web s lehkostí. WPForms podporuje dvě populární služby."
 
-#: src/Providers/Provider/Settings/PageIntegrations.php:253
+#: src/Providers/Provider/Settings/PageIntegrations.php:255
 msgid "Missing data."
 msgstr "Chybějící data."
 
@@ -2214,11 +2209,11 @@ msgstr "Ověření hCaptcha se nezdařilo, prosím opakujte akci znovu později.
 msgid "hCaptcha is a free and privacy-oriented spam prevention service. Within your forms, hCaptcha will display a checkbox asking users to prove they're human (much like Google's v2 Checkbox reCAPTCHA). This is a simple step for legitimate site visitors, but is extremely effective at blocking spam."
 msgstr "hCaptcha je bezplatná služba pro prevenci proti spamu zaměřená na soukromí. Ve Vašich formulářích hCaptcha zobrazí zaškrtávací políčko s požadavkem, aby uživatelé prokázali, že jsou lidé (podobně jako Google v2 Checkbox reCAPTCHA). Jedná se o jednoduchý krok pro legitimní návštěvníky stránek, ale je velmi účinný při blokování spamu."
 
-#: src/Providers/Provider/Settings/PageIntegrations.php:269
+#: src/Providers/Provider/Settings/PageIntegrations.php:271
 msgid "Connection missing."
 msgstr "Spojení chybí."
 
-#: templates/admin/form-embed-wizard/popup.php:65
+#: templates/admin/form-embed-wizard/popup.php:82
 msgid "Copy embed code to clipboard"
 msgstr "Zkopírovat vložený kód do schránky"
 
@@ -2241,7 +2236,7 @@ msgid "Vietnam"
 msgstr "Vietnam"
 
 #. translators: %s - The CAPTCHA provider name.
-#: includes/class-process.php:529
+#: includes/class-process.php:785
 msgid "%s verification failed, please try again later."
 msgstr "%s Ověření selhalo, prosím opakujte akci znovu později."
 
@@ -2261,12 +2256,12 @@ msgstr "Google reCAPTCHA v2"
 msgid "Eswatini (Kingdom of)"
 msgstr "Svazijské království"
 
-#. translators: %s - Link to the WPForms.com doc article.
+#. translators: %s - link to the WPForms.com doc article.
 #: includes/admin/builder/class-builder.php:672
 msgid "Disabling entry storage for this form will completely prevent any new submissions from getting saved to your site. If you still intend to keep a record of entries through notification emails, then please <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">test your form</a> to ensure emails send reliably."
 msgstr "Zakázání vstupního úložiště pro tento formulář zcela zabrání uložení nových příspěvků na váš web. Pokud si stále chcete zaznamenávat záznamy prostřednictvím e-mailů s upozorněním, <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">otestujte svůj formulář</a>, abyste zajistili spolehlivé odesílání e-mailů."
 
-#: src/Admin/Builder/AntiSpam.php:135
+#: src/Admin/Builder/AntiSpam.php:152
 msgid "Enable hCaptcha"
 msgstr "Povolit hCaptcha"
 
@@ -2284,15 +2279,15 @@ msgid "Could not disconnect this account."
 msgstr "Tento účet nelze odpojit."
 
 #. translators: %s - URL to WPForms.com doc article.
-#: includes/fields/class-select.php:260
+#: includes/fields/class-select.php:261
 msgid "For details, including how this looks and works for your site's visitors, please check out <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">our doc</a>."
 msgstr "Podrobnosti, včetně toho, jak to vypadá a funguje pro návštěvníky Vašeho webu, najdete v <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">naší dokumentaci</a>. "
 
-#: includes/fields/class-email.php:379
+#: includes/fields/class-email.php:380
 msgid "Allowlist"
 msgstr "Seznam povolených"
 
-#: includes/fields/class-email.php:365
+#: includes/fields/class-email.php:366
 msgid "Allowlist / Denylist"
 msgstr "Seznam povolených / Seznam zakázaných"
 
@@ -2309,7 +2304,7 @@ msgstr "Dokumentace"
 msgid "Clear"
 msgstr "Vymazat"
 
-#: includes/admin/ajax-actions.php:22 includes/fields/class-base.php:2492
+#: includes/admin/ajax-actions.php:22 includes/fields/class-base.php:2522
 #: src/Admin/Forms/Ajax/Tags.php:204 src/Admin/Forms/Ajax/Tags.php:244
 msgid "You are not allowed to perform this action."
 msgstr "K této akci nemáte dostatečná oprávnění."
@@ -2379,7 +2374,7 @@ msgstr "Žádná dokumentace nebyla nalezena"
 msgid "Select form"
 msgstr "Vybrat formulář"
 
-#. translators: %s: search query.
+#. translators: %s - search query.
 #: src/Logger/ListTable.php:308
 msgid "Search results for \"%s\""
 msgstr "Výsledky hledání pro \"%s\""
@@ -2418,8 +2413,8 @@ msgstr "Uživatelské úrovně"
 msgid "Unfortunately the error occurred while downloading help data."
 msgstr "Bohužel došlo k chybě při stahování dat nápovědy."
 
-#: includes/admin/class-settings.php:432 includes/fields/class-email.php:635
-#: includes/fields/class-email.php:643 src/Frontend/Frontend.php:1796
+#: includes/admin/class-settings.php:432 includes/fields/class-email.php:636
+#: includes/fields/class-email.php:644 src/Frontend/Frontend.php:1796
 msgid "This email address is not allowed."
 msgstr "Tato e-mailová adresa není povolena."
 
@@ -2435,7 +2430,7 @@ msgstr "ID logu"
 msgid "Log Title"
 msgstr "Název logu"
 
-#: includes/fields/class-email.php:380
+#: includes/fields/class-email.php:381
 msgid "Denylist"
 msgstr "Seznam zakázaných"
 
@@ -2465,7 +2460,7 @@ msgid "Something went wrong while saving the form. Please reload the page and tr
 msgstr "Při ukládání formuláře došlo k chybě. Obnovte stránku a zkuste to znovu."
 
 #: includes/admin/ajax-actions.php:17 includes/admin/ajax-actions.php:809
-#: includes/fields/class-base.php:2487 src/Admin/FormEmbedWizard.php:412
+#: includes/fields/class-base.php:2517 src/Admin/FormEmbedWizard.php:412
 msgid "Your session expired. Please reload the builder."
 msgstr "Vaše relace vypršela. Prosím, obnovte editor."
 
@@ -2477,7 +2472,7 @@ msgstr "Poskytovatelé"
 msgid "Please contact the plugin support team if this behavior persists."
 msgstr "Pokud tento problém přetrvává, prosím kontaktujte tým podpory pluginu."
 
-#: includes/fields/class-email.php:366
+#: includes/fields/class-email.php:367
 msgid "Restrict which email addresses are allowed. Be sure to separate each email address with a comma."
 msgstr "Omezte, které e-mailové adresy jsou povoleny. Nezapomeňte oddělit každou e-mailovou adresu čárkou."
 
@@ -2545,7 +2540,7 @@ msgstr "WP Mail SMTP na WordPress.org"
 msgid "MonsterInsights on WordPress.org"
 msgstr "MonsterInsights na WordPress.org"
 
-#. translators: %s - link to a site.
+#. translators: %s - link to the site.
 #: templates/emails/summary-footer-plain.php:18
 msgid "This email was auto-generated and sent from %s."
 msgstr "Tento e-mail byl automaticky vygenerován a odeslán z %s."
@@ -2554,7 +2549,7 @@ msgstr "Tento e-mail byl automaticky vygenerován a odeslán z %s."
 msgid "It looks like you haven’t created any forms yet."
 msgstr "Vypadá to, že jste dosud nevytvořili žádné formuláře."
 
-#. translators: %1$s - link to a site; %2$s - link to the documentation.
+#. translators: %1$s - link to the site, %2$s - link to the documentation.
 #: templates/emails/summary-footer.php:25
 msgid "This email was auto-generated and sent from %1$s. Learn <a href=\"%2$s\">how to disable</a>."
 msgstr "Tento e-mail byl automaticky vygenerován a odeslán z %1$s. Zjistěte <a href=\"%2$s\">jak to zakázat</a>"
@@ -2568,13 +2563,13 @@ msgstr "Zjistěte, jak to zakázat: %s."
 msgid "Increment value should be greater than zero. Decimal fractions allowed."
 msgstr "Hodnota přírůstku by měla být větší než nula. Desetinné zlomky jsou povoleny."
 
-#. translators: %1$s - Video tutorial toggle CSS classes, %2$s - shortcode
+#. translators: %1$s - video tutorial toggle CSS classes, %2$s - shortcode
 #. toggle CSS classes.
-#: templates/admin/form-embed-wizard/popup.php:49
+#: templates/admin/form-embed-wizard/popup.php:58
 msgid "You can also <a href=\"#\" class=\"%1$s\">embed your form manually</a> or <a href=\"#\" class=\"%2$s\">use a shortcode</a>"
 msgstr "Můžete také <a href=\"#\" class=\"%1$s\">vložit formulář ručně</a> nebo <a href=\"#\" class=\"%2$s\">použít shortcode</a>"
 
-#: includes/admin/builder/panels/class-fields.php:574
+#: includes/admin/builder/panels/class-fields.php:587
 msgid "Take your pick from our wide variety of fields and start building out your form!"
 msgstr "Vyberte si z naší široké škály polí a začněte budovat svůj formulář!"
 
@@ -2583,7 +2578,7 @@ msgstr "Vyberte si z naší široké škály polí a začněte budovat svůj for
 msgid "Need to make changes? <a href=\"#\">Edit the selected form.</a>"
 msgstr "Potřebujete provést změny? <a href=\"#\">Upravit vybraný formulář.</a>"
 
-#: src/Integrations/Elementor/Widget.php:364
+#: src/Integrations/Elementor/Widget.php:381
 msgid "Select a form"
 msgstr "Vyberte formulář"
 
@@ -2647,32 +2642,24 @@ msgstr "Token formuláře je neplatný. Prosím obnovte stránku."
 msgid "Please check out our %1$stroubleshooting guide%2$s for details on resolving this issue."
 msgstr "Podrobnosti o vyřešení tohoto problému naleznete v našem %1$sprůvodci řešení problémů%2$s."
 
-#: includes/class-process.php:374
-msgid "Spam Entry "
-msgstr "Záznam o spamu"
-
 #: src/Admin/Settings/Captcha/Page.php:195
 msgid "Check this option to forcefully remove other CAPTCHA occurrences in order to prevent conflicts. Only enable this option if your site is having compatibility issues or instructed by support."
 msgstr "Zaškrtněte tuto možnost, pokud potřebujete násilně odstranit jiné výskyty CAPTCHA, abyste předešli konfliktům. Tuto možnost povolte pouze v případě, že Váš web má problémy s kompatibilitou nebo dostanete pokyn od podpory."
 
 #. translators: %d - choice number.
-#. translators: %d - Choice item number.
-#: includes/fields/class-base.php:501 includes/fields/class-base.php:536
-#: includes/fields/class-base.php:2324 includes/fields/class-base.php:2370
+#: includes/fields/class-base.php:518 includes/fields/class-base.php:555
+#: includes/fields/class-base.php:2348 includes/fields/class-base.php:2398
 msgid "Choice %d"
 msgstr "Volba %d"
 
-#: templates/integrations/elementor/no-forms.php:26
-msgid "Create a form"
-msgstr "Vytvořit formulář"
-
 #: templates/integrations/elementor/no-forms.php:20
+#: assets/js/components/admin/gutenberg/formselector.es5.js:667
+#: assets/js/components/admin/gutenberg/formselector.js:694
 msgid "You can use <b>WPForms</b> to build contact forms, surveys, payment forms, and more with just a few clicks."
 msgstr "<b>WPForms</b> můžete použít k vytváření kontaktních formulářů, průzkumů, platebních formulářů a dalších pomocí několika kliknutí."
 
 #. translators: %s - URL to the documentation article.
 #: templates/admin/empty-states/no-forms.php:32
-#: templates/integrations/elementor/no-forms.php:32
 msgid "Need some help? Check out our <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">comprehensive guide</a>."
 msgstr "Potřebujete pomoc? Podívejte se na našeho <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">komplexního průvodce</a>."
 
@@ -2707,7 +2694,7 @@ msgstr "Pojmenuje Vaši stránku"
 msgid "Select Existing Page"
 msgstr "Vyberte existující stránku:"
 
-#: src/Forms/IconChoices.php:453 templates/admin/challenge/modal.php:74
+#: src/Forms/IconChoices.php:480 templates/admin/challenge/modal.php:74
 #: templates/builder/fullscreen/mobile-notice.php:25
 msgid "Continue"
 msgstr "Pokračovat"
@@ -2737,7 +2724,7 @@ msgstr "Pojďme!"
 msgid "End Challenge"
 msgstr "Ukončit výzvu"
 
-#. translators: %s - Link to the WPForms documentation page.
+#. translators: %s - link to the WPForms documentation page.
 #: templates/admin/challenge/embed.php:25
 #: templates/admin/form-embed-wizard/tooltip.php:22
 msgid "Click the plus button, search for WPForms, click the block to<br>embed it. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Learn More</a>."
@@ -2751,7 +2738,7 @@ msgstr "Chcete vložit svůj formulář na existující stránku nebo vytvořit 
 msgid "Our form builder is a full-screen, distraction-free experience where you manage your forms. The following steps will walk you through essential areas."
 msgstr "Náš tvůrce formulářů je na celou obrazovku bez rušivých vlivů, kde spravujete své formuláře. Následující kroky vás provedou základními oblastmi."
 
-#: src/Admin/Education/Fields.php:211
+#: src/Admin/Education/Fields.php:217
 msgid "Authorize.Net"
 msgstr "Authorize.Net"
 
@@ -2773,7 +2760,7 @@ msgstr "Umožníte-li nám sledovat údaje o využití, můžeme Vám lépe pomo
 msgid "Advanced Fields"
 msgstr "Pokročilá pole"
 
-#: includes/fields/class-select.php:257
+#: includes/fields/class-select.php:258
 msgid "Allow users to select multiple choices in this field."
 msgstr "Umožnit uživatelům vybrat více možností v tomto poli."
 
@@ -2781,8 +2768,8 @@ msgstr "Umožnit uživatelům vybrat více možností v tomto poli."
 msgid "File Uploads"
 msgstr "Nahrání souborů"
 
-#: includes/fields/class-select.php:290
-#: src/Forms/Fields/PaymentSelect/Field.php:271
+#: includes/fields/class-select.php:291
+#: src/Forms/Fields/PaymentSelect/Field.php:272
 msgid "Style"
 msgstr "Styl"
 
@@ -2791,20 +2778,20 @@ msgstr "Styl"
 msgid "Scheduled Actions"
 msgstr "Naplánované akce"
 
-#: includes/fields/class-select.php:291
-#: src/Forms/Fields/PaymentSelect/Field.php:272
+#: includes/fields/class-select.php:292
+#: src/Forms/Fields/PaymentSelect/Field.php:273
 msgid "Classic style is the default one generated by your browser. Modern has a fresh look and displays all selected options in a single row."
 msgstr "Klasický styl je výchozí styl vytvořený prohlížečem. Modern má svěží vzhled a zobrazuje všechny vybrané možnosti v jednom řádku."
 
-#: includes/fields/class-select.php:256
+#: includes/fields/class-select.php:257
 msgid "Multiple Options Selection"
 msgstr "Výběr více možností"
 
-#: includes/fields/class-base.php:2855
+#: includes/fields/class-base.php:2885
 msgid "Only unique values can be added"
 msgstr "Lze přidat pouze jedinečné hodnoty"
 
-#: includes/fields/class-base.php:2856
+#: includes/fields/class-base.php:2886
 msgid "Only values matching specific conditions can be added"
 msgstr "Lze přidat pouze hodnoty odpovídající konkrétním podmínkám"
 
@@ -2841,11 +2828,11 @@ msgstr "Skrýt menu na panelu administrátora"
 msgid "In order to complete your form's %s integration, please check that the dropdowns for all required (*) List Fields have been filled out."
 msgstr "Chcete-li dokončit integraci %s Vašeho formuláře, prosím zkontrolujte, zda byla vyplněna rozevírací nabídka pro všechna povinná (*) pole seznamu."
 
-#: src/Admin/Education/Core.php:133
+#: src/Admin/Education/Core.php:178
 msgid "is an Elite Feature"
 msgstr "je elitní funkce"
 
-#: src/Admin/Education/Core.php:141
+#: src/Admin/Education/Core.php:190
 msgid "Upgrade to Elite"
 msgstr "Upgradovat na Elite."
 
@@ -2858,7 +2845,7 @@ msgid "Additional Marketing Integrations"
 msgstr "Dodatečné marketingové integrace"
 
 #. translators: %s - addon name.
-#: src/Admin/Education/Core.php:135
+#: src/Admin/Education/Core.php:181
 msgid "We're sorry, the %s is not available on your plan. Please upgrade to the Elite plan to unlock all these awesome features."
 msgstr "Je nám líto, %s není ve Vašem plánu k dispozici. Chcete-li odemknout všechny tyto úžasné funkce, prosím upgradujte na Elitní plán."
 
@@ -2871,7 +2858,7 @@ msgstr "ActiveCampaign, Constant Contact, Mailchimp, AWeber, GetResponse, Campai
 msgid "Edit Form"
 msgstr "Upravit formulář"
 
-#: src/Admin/AdminBarMenu.php:336 src/Admin/Builder/Shortcuts.php:55
+#: src/Admin/AdminBarMenu.php:336 src/Admin/Builder/Shortcuts.php:57
 #: src/Forms/Preview.php:185
 msgid "View Entries"
 msgstr "Zobrazit záznamy"
@@ -2929,7 +2916,7 @@ msgstr "Upravit ostatní formuláře"
 msgid "View Forms"
 msgstr "Zobrazit formuláře"
 
-#: src/Integrations/Gutenberg/FormSelector.php:550
+#: src/Integrations/Gutenberg/FormSelector.php:572
 msgid "The form cannot be displayed."
 msgstr "Formulář nelze zobrazit."
 
@@ -2939,7 +2926,7 @@ msgstr "Nemáte dostatečné oprávnění pro úpravy tohoto formuláře."
 
 #: includes/admin/class-menu.php:193 includes/admin/class-menu.php:194
 #: lite/templates/education/builder/did-you-know.php:30
-#: lite/wpforms-lite.php:1353 src/Admin/Builder/AntiSpam.php:221
+#: lite/wpforms-lite.php:1375 src/Admin/Builder/AntiSpam.php:300
 msgid "Upgrade to Pro"
 msgstr "Upgradovat na Pro."
 
@@ -3046,11 +3033,11 @@ msgstr "Web již aktivoval WPForms Pro. Pokud chcete přepnout na WPForms Lite, 
 msgid "Premium Support"
 msgstr "Prémiová podpora"
 
-#: includes/admin/builder/panels/class-fields.php:166
+#: includes/admin/builder/panels/class-fields.php:175
 msgid "Enabled"
 msgstr "Povoleno"
 
-#: templates/admin/form-embed-wizard/popup.php:72
+#: templates/admin/form-embed-wizard/popup.php:89
 msgid "Go back"
 msgstr "Zpět"
 
@@ -3058,12 +3045,12 @@ msgstr "Zpět"
 msgid "SMTP"
 msgstr "SMTP"
 
-#. translators: %1$s - current license type; %2$s - suggested license type.
+#. translators: %1$s - current license type, %2$s - suggested license type.
 #: includes/admin/class-about.php:121
 msgid "%1$s vs %2$s"
 msgstr "%1$s vs %2$s"
 
-#. translators: %1$s - Number slider selected value; %2$s - its minimum value;
+#. translators: %1$s - Number slider selected value, %2$s - its minimum value,
 #. %3$s - its maximum value.
 #: includes/fields/class-number-slider.php:94
 msgid "%1$s (%2$s min / %3$s max)"
@@ -3285,7 +3272,7 @@ msgstr "MonsterInsights má intuitivního průvodce nastavením, který Vás pro
 #: lite/templates/education/admin/notice-bar.php:35
 #: lite/templates/education/builder/did-you-know.php:31
 #: lite/templates/education/builder/lite-connect/top-bar.php:26
-#: lite/wpforms-lite.php:114
+#: lite/wpforms-lite.php:118
 msgid "Dismiss this message."
 msgstr "Odmítnout tuto zprávu."
 
@@ -3365,7 +3352,7 @@ msgstr "Sledujte zobrazení a konverze formulářů."
 msgid "Complete UTM tracking with form entries."
 msgstr "Kompletní sledování UTM se záznamy formuláře."
 
-#. translators: %1$s - CAPTCHA settings page URL; %2$s - WPForms.com doc URL;
+#. translators: %1$s - CAPTCHA settings page URL, %2$s - WPForms.com doc URL,
 #. %3$s - CAPTCHA name.
 #: src/Admin/Education/Builder/Captcha.php:164
 msgid "The %3$s settings have not been configured yet. Please complete the setup in your <a href=\"%1$s\" target=\"_blank\">WPForms Settings</a>, and check out our <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">step by step tutorial</a> for full details."
@@ -3381,7 +3368,7 @@ msgstr "Plugin nelze aktivovat. Aktivujte ho na <a href=\"%s\">stránce Pluginy<
 msgid "<strong>You're using WPForms Lite.</strong> To unlock more features consider <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">upgrading to Pro</a> for 50%% off."
 msgstr "<strong>Používáte WPForms Lite.</strong> Chcete-li odemknout více funkcí, zvažte <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">upgrade na Pro</a> s 50%% slevu."
 
-#: includes/fields/class-text.php:308 includes/fields/class-textarea.php:152
+#: includes/fields/class-text.php:308 includes/fields/class-textarea.php:154
 msgid "Words"
 msgstr "Slova"
 
@@ -3390,12 +3377,12 @@ msgstr "Slova"
 msgid "Community"
 msgstr "Komunita"
 
-#: includes/fields/class-text.php:276 includes/fields/class-textarea.php:120
+#: includes/fields/class-text.php:276 includes/fields/class-textarea.php:122
 msgid "Check this option to limit text length by characters or words count."
 msgstr "Zaškrtněte tuto možnost, chcete-li omezit délku textu počtem znaků nebo slov."
 
 #. translators: %s - limit words number.
-#: includes/fields/class-text.php:537 includes/fields/class-textarea.php:359
+#: includes/fields/class-text.php:537 includes/fields/class-textarea.php:361
 msgid "Text can't exceed %d word."
 msgid_plural "Text can't exceed %d words."
 msgstr[0] "Text nesmí překročit %d slovo."
@@ -3403,14 +3390,14 @@ msgstr[1] "Text nesmí překročit %d slova."
 msgstr[2] "Text nesmí překročit %d slov."
 
 #. translators: %s - limit characters number.
-#: includes/fields/class-text.php:531 includes/fields/class-textarea.php:353
+#: includes/fields/class-text.php:531 includes/fields/class-textarea.php:355
 msgid "Text can't exceed %d character."
 msgid_plural "Text can't exceed %d characters."
 msgstr[0] "Text nesmí překročit %d znak."
 msgstr[1] "Text nesmí překročit %d znaky."
 msgstr[2] "Text nesmí překročit %d znaků."
 
-#: includes/fields/class-text.php:307 includes/fields/class-textarea.php:151
+#: includes/fields/class-text.php:307 includes/fields/class-textarea.php:153
 msgid "Characters"
 msgstr "Znaky"
 
@@ -3422,7 +3409,7 @@ msgstr "Přizpůsobte a rozšiřte WPForms pomocí kódu. Mezi naše komplexní 
 msgid "View WPForms Dev Docs"
 msgstr "Zobrazit vývojové dokumentace WPForms"
 
-#: includes/fields/class-text.php:275 includes/fields/class-textarea.php:119
+#: includes/fields/class-text.php:275 includes/fields/class-textarea.php:121
 msgid "Limit Length"
 msgstr "Mezní délka"
 
@@ -3610,7 +3597,7 @@ msgstr "Ověření Google reCAPTCHA se nezdařilo, zkuste to znovu později."
 msgid "reCAPTCHA v3"
 msgstr "reCAPTCHA v3"
 
-#: includes/class-process.php:811
+#: includes/class-process.php:1181
 msgid "Redirecting…"
 msgstr "Přesměrování..."
 
@@ -3626,7 +3613,7 @@ msgstr "Povolit odeslání formuláře AJAX"
 msgid "reCAPTCHA v3 returns a score (1.0 is very likely a good interaction, 0.0 is very likely a bot). If the score less than or equal to this threshold, the form submission will be blocked and the message above will be displayed."
 msgstr "reCAPTCHA v3 vrací skóre (1.0 je velmi pravděpodobné dobrá interakce, 0,0 je velmi pravděpodobné bot). Pokud je skóre menší nebo rovné této prahové hodnotě, odeslání formuláře bude blokováno a zobrazí se výše uvedená zpráva."
 
-#: src/Admin/Builder/AntiSpam.php:140
+#: src/Admin/Builder/AntiSpam.php:157
 msgid "Enable Google v3 reCAPTCHA"
 msgstr "Povolit Google v3 reCAPTCHA"
 
@@ -3652,12 +3639,12 @@ msgstr "<strong>v3 reCAPTCHA</strong>: Používá systém bodování v zákulis�
 msgid "Google offers 3 versions of reCAPTCHA (all supported within WPForms):"
 msgstr "Google nabízí 3 verze reCAPTCHA (všechny podporované v rámci WPForms):"
 
-#: includes/fields/class-email.php:629
+#: includes/fields/class-email.php:630
 msgid "The provided emails do not match."
 msgstr "Zadané e-maily se neshodují."
 
-#: includes/fields/class-email.php:563 includes/fields/class-email.php:613
-#: includes/fields/class-email.php:623
+#: includes/fields/class-email.php:564 includes/fields/class-email.php:614
+#: includes/fields/class-email.php:624
 msgid "The provided email is not valid."
 msgstr "Zadaný e-mail není platný."
 
@@ -3669,7 +3656,7 @@ msgstr "Weby, které již používají jeden typ reCAPTCHA, budou muset před p�
 msgid "Score Threshold"
 msgstr "Prahová hodnota skóre"
 
-#. translators: %1$s - CAPTCHA provider name; %2$s - URL to reCAPTCHA
+#. translators: %1$s - CAPTCHA provider name, %2$s - URL to reCAPTCHA
 #. documentation.
 #: src/Frontend/Amp.php:349
 msgid "%1$s is not supported by AMP and is currently disabled.<br><a href=\"%2$s\" rel=\"noopener noreferrer\" target=\"_blank\">Upgrade to reCAPTCHA v3</a> for full AMP support. <br><em>Please note: this message is only displayed to site administrators.</em>"
@@ -3679,19 +3666,19 @@ msgstr "%1$s není podporován AMP a je aktuálně zakázán.<br><a href=\"%2$s\
 msgid "Check this option to remove ALL WPForms data upon plugin deletion. All forms and settings will be unrecoverable."
 msgstr "Zaškrtněte tuto možnost, pokud chcete po smazání pluginu odstranit všechna data WPForms. Všechny formuláře a nastavení budou neodstranitelné."
 
-#: src/Integrations/Gutenberg/FormSelector.php:313
+#: src/Integrations/Gutenberg/FormSelector.php:315
 msgid "contact"
 msgstr "kontakt"
 
-#: src/Integrations/Gutenberg/FormSelector.php:329
+#: src/Integrations/Gutenberg/FormSelector.php:331
 msgid "Do not forget to test your form."
 msgstr "Nezapomeňte otestovat formulář."
 
-#: src/Integrations/Gutenberg/FormSelector.php:314
+#: src/Integrations/Gutenberg/FormSelector.php:316
 msgid "survey"
 msgstr "průzkum"
 
-#: includes/admin/class-settings.php:462 includes/fields/class-checkbox.php:673
+#: includes/admin/class-settings.php:462 includes/fields/class-checkbox.php:674
 #: src/Frontend/Frontend.php:1800
 msgid "You have exceeded the number of allowed selections: {#}."
 msgstr "Překročili jste povolený výběr: {#}."
@@ -3704,15 +3691,15 @@ msgstr "MonsterInsights Pro"
 msgid "Click to accept this suggestion."
 msgstr "Klepnutím přijměte tento návrh."
 
-#: src/Integrations/Gutenberg/FormSelector.php:331
+#: src/Integrations/Gutenberg/FormSelector.php:333
 msgid "Check out our complete guide!"
 msgstr "Podívejte se na našeho kompletního průvodce!"
 
-#: includes/fields/class-checkbox.php:384
+#: includes/fields/class-checkbox.php:385
 msgid "Limit the number of checkboxes a user can select. Leave empty for unlimited."
 msgstr "Omezte počet zaškrtávacích políček, které může uživatel vybrat. Nechte prázdné pro neomezený počet."
 
-#: includes/fields/class-checkbox.php:383
+#: includes/fields/class-checkbox.php:384
 msgid "Choice Limit"
 msgstr "Limit výběru"
 
@@ -3732,7 +3719,7 @@ msgstr "Zadejte prosím platné kladné číslo."
 msgid "Checkbox reCAPTCHA v2"
 msgstr "Zaškrtávací políčko reCAPTCHA v2"
 
-#: src/Admin/Builder/AntiSpam.php:138
+#: src/Admin/Builder/AntiSpam.php:155
 msgid "Enable Google Checkbox v2 reCAPTCHA"
 msgstr "Povolit Google Zaškrtávací políčko v2 reCAPTCHA"
 
@@ -3741,16 +3728,16 @@ msgstr "Povolit Google Zaškrtávací políčko v2 reCAPTCHA"
 msgid "Please enter a valid number."
 msgstr "Prosím vložte platné číslo."
 
-#: includes/fields/class-name.php:229
+#: includes/fields/class-name.php:230
 msgid "Format"
 msgstr "Formát"
 
-#: includes/fields/class-name.php:242
+#: includes/fields/class-name.php:243
 msgid "Simple"
 msgstr "Jednoduchý"
 
 #: includes/admin/overview/class-overview-table.php:93
-#: includes/fields/class-name.php:18 includes/fields/class-name.php:290
+#: includes/fields/class-name.php:18 includes/fields/class-name.php:291
 #: includes/templates/class-simple-contact-form.php:32
 msgid "Name"
 msgstr "Jméno"
@@ -3764,11 +3751,11 @@ msgstr "ID uživatele"
 msgid "Date"
 msgstr "Datum"
 
-#: includes/fields/class-name.php:341
+#: includes/fields/class-name.php:342
 msgid "Last Name"
 msgstr "Příjmení"
 
-#: includes/fields/class-name.php:307
+#: includes/fields/class-name.php:308
 msgid "First Name"
 msgstr "Křestní jméno"
 
@@ -4909,7 +4896,7 @@ msgid "Content"
 msgstr "Obsah"
 
 #: includes/integrations.php:57 includes/integrations.php:72
-#: src/Integrations/Gutenberg/FormSelector.php:356
+#: src/Integrations/Gutenberg/FormSelector.php:358
 msgid "No"
 msgstr "Ne"
 
@@ -4935,7 +4922,7 @@ msgstr "Zobrazit"
 msgid "Number"
 msgstr "Číslo"
 
-#: includes/fields/class-base.php:1051
+#: includes/fields/class-base.php:1073
 #: src/Admin/Payments/Views/Overview/Table.php:71
 #: src/Admin/Payments/Views/Single.php:291
 #: src/Admin/Settings/Captcha/ReCaptcha.php:58
@@ -5013,7 +5000,7 @@ msgid "is"
 msgstr "je"
 
 #: includes/admin/builder/class-builder.php:616
-#: src/Requirements/Requirements.php:1022
+#: src/Requirements/Requirements.php:1026
 msgid "or"
 msgstr "nebo"
 
@@ -5034,7 +5021,7 @@ msgid "ends with"
 msgstr "končí na"
 
 #: includes/admin/builder/class-builder.php:624
-#: src/Admin/Payments/Views/Overview/Table.php:478
+#: src/Admin/Payments/Views/Overview/Table.php:480
 msgid "starts with"
 msgstr "začíná na"
 
@@ -5043,7 +5030,7 @@ msgid "does not contain"
 msgstr "neobsahuje"
 
 #: includes/admin/builder/class-builder.php:622
-#: src/Admin/Payments/Views/Overview/Table.php:479
+#: src/Admin/Payments/Views/Overview/Table.php:481
 msgid "contains"
 msgstr "obsahuje"
 
@@ -5059,7 +5046,7 @@ msgstr "je prázdný"
 msgid "Saved!"
 msgstr "Uloženo!"
 
-#: src/Admin/Education/Core.php:108
+#: src/Admin/Education/Core.php:115
 msgid "Saving ..."
 msgstr "Ukládání..."
 
@@ -5073,6 +5060,7 @@ msgid "Created"
 msgstr "Vytvořeno"
 
 #: src/Admin/Tools/Views/Import.php:305 src/Admin/Tools/Views/Import.php:319
+#: src/Integrations/Elementor/WidgetModern.php:236
 #: src/Lite/Admin/Education/LiteConnect.php:233
 msgid "Error"
 msgstr "Chyba"
@@ -5099,12 +5087,12 @@ msgstr "Pozor!"
 msgid "No forms found."
 msgstr "Nebyly nalezeny žádné formuláře."
 
-#: src/Admin/Tools/Importers/NinjaForms.php:422
-#: src/Admin/Tools/Importers/NinjaForms.php:437
+#: src/Admin/Tools/Importers/NinjaForms.php:424
+#: src/Admin/Tools/Importers/NinjaForms.php:441
 msgid "Notification"
 msgstr "Oznámení"
 
-#: includes/admin/builder/panels/class-fields.php:173
+#: includes/admin/builder/panels/class-fields.php:182
 #: includes/admin/builder/panels/class-settings.php:156
 #: includes/class-form.php:529
 #: includes/templates/class-simple-contact-form.php:55
@@ -5288,7 +5276,7 @@ msgstr "Aktivováno"
 msgid "Active"
 msgstr "Aktivní"
 
-#: includes/admin/builder/panels/class-fields.php:71
+#: includes/admin/builder/panels/class-fields.php:80
 msgid "Add Fields"
 msgstr "Přidat pole"
 
@@ -5337,6 +5325,7 @@ msgstr "Prázdný formulář"
 #: includes/admin/class-editor.php:158 src/Admin/Builder/Templates.php:144
 #: src/Admin/Education/Core.php:91 src/Admin/Forms/Tags.php:453
 #: src/Admin/Payments/Views/Single.php:341
+#: src/Integrations/Elementor/Elementor.php:131
 #: src/Lite/Admin/Education/LiteConnect.php:226
 #: templates/admin/components/datepicker.php:64
 #: templates/admin/forms/bulk-edit-tags.php:30
@@ -5349,7 +5338,7 @@ msgstr "Komentář nebo zpráva"
 
 #: includes/admin/builder/panels/class-payments.php:37
 #: includes/admin/builder/panels/class-providers.php:71
-#: includes/fields/class-base.php:1636
+#: includes/fields/class-base.php:1658
 msgid "Default"
 msgstr "Výchozí"
 
@@ -5402,7 +5391,7 @@ msgstr "vybrané soubory"
 #: includes/admin/builder/panels/class-settings.php:41
 #: includes/admin/builder/panels/class-settings.php:126
 #: includes/admin/class-settings.php:187 includes/admin/class-settings.php:269
-#: includes/fields/class-base.php:926
+#: includes/fields/class-base.php:948
 msgid "General"
 msgstr "Obecné"
 
@@ -5417,7 +5406,8 @@ msgstr "Obrázek v záhlaví"
 #: includes/admin/admin.php:196 includes/admin/builder/class-builder.php:570
 #: src/Admin/Education/Builder/Captcha.php:161
 #: src/Admin/Tools/Views/Importer.php:223
-#: src/Integrations/Gutenberg/FormSelector.php:328 wpforms.php:155
+#: src/Integrations/Elementor/Elementor.php:130
+#: src/Integrations/Gutenberg/FormSelector.php:330 wpforms.php:155
 msgid "Heads up!"
 msgstr "Pozor!"
 
@@ -5502,7 +5492,7 @@ msgstr "WPForms usnadňuje vytváření formulářů ve WordPressu. Můžete si 
 msgid "Would you like to learn more about all of the settings available in WPForms? In addition to tons of customization options within the form builder, WPForms has an extensive list of plugin-wide options available. This includes choosing your currency, adding GDPR enhancements, setting up integrations."
 msgstr "Chtěli byste se dozvědět více o všech nastaveních dostupných ve WPForms? Kromě množství možností přizpůsobení v rámci nástroje pro tvorbu formulářů má WPForms k dispozici také rozsáhlý seznam možností pro celý plugin. To zahrnuje výběr měny, přidání vylepšení GDPR, nastavení integrace."
 
-#. translators: %s - Form template name.
+#. translators: %s - form template name.
 #: src/Admin/Traits/FormTemplates.php:234
 msgid "%s template"
 msgstr "%s šablona"
@@ -5544,7 +5534,7 @@ msgstr "Upravit tento formulář"
 msgid "Not Active"
 msgstr "Neaktivní"
 
-#. translators: %d - Duplicated forms count.
+#. translators: %d - duplicated forms count.
 #: src/Admin/Forms/BulkActions.php:379
 msgid "%d form was successfully duplicated."
 msgid_plural "%d forms were successfully duplicated."
@@ -5669,7 +5659,7 @@ msgid "Loading"
 msgstr "Načítání"
 
 #: includes/admin/admin.php:147 includes/admin/admin.php:255
-#: includes/fields/class-base.php:2851 src/Admin/Forms/Tags.php:180
+#: includes/fields/class-base.php:2881 src/Admin/Forms/Tags.php:180
 msgid "Loading..."
 msgstr "Načítání…"
 
@@ -5694,7 +5684,7 @@ msgstr "Žádné pokročilé funkce"
 msgid "Notification 1"
 msgstr "Oznámení 1"
 
-#: src/Admin/Tools/Importers/ContactForm7.php:440
+#: src/Admin/Tools/Importers/ContactForm7.php:442
 msgid "Notification 2"
 msgstr "Oznámení 2"
 
@@ -5707,11 +5697,11 @@ msgstr "Jeden nebo více formulářů obsahuje pole, která nejsou dostupná ve 
 msgid "Plugin installed & activated."
 msgstr "Plugin nainstalován & aktivován."
 
-#: includes/admin/builder/panels/class-fields.php:557
+#: includes/admin/builder/panels/class-fields.php:570
 msgid "You don't have any fields yet."
 msgstr "Zatím nemáte žádná pole."
 
-#: includes/admin/builder/panels/class-fields.php:573
+#: includes/admin/builder/panels/class-fields.php:586
 msgid "You don't have any fields yet. Add some!"
 msgstr "Zatím nemáte žádná pole. Přidejte nějaké!"
 
@@ -5772,8 +5762,8 @@ msgstr "Odinstalovat WPForms"
 msgid "Unknown Form"
 msgstr "Neznámý formulář"
 
-#. translators: %1$s - field type; %2$s - field name if available.
-#: src/Admin/Tools/Importers/ContactForm7.php:532
+#. translators: %1$s - field type, %2$s - field name if available.
+#: src/Admin/Tools/Importers/ContactForm7.php:536
 msgid "%1$s Field %2$s"
 msgstr "%1$s pole %2$s"
 
@@ -5793,7 +5783,7 @@ msgstr "Následující pole nejsou podporována a nebyla importována:"
 msgid "The form you are trying to import does not exist."
 msgstr "Formulář, který se pokoušíte importovat, neexistuje."
 
-#: includes/admin/admin.php:201 src/Admin/Education/Core.php:158
+#: includes/admin/admin.php:201 src/Admin/Education/Core.php:207
 msgid "Thanks for your interest in WPForms Pro!"
 msgstr "Děkujeme za Váš zájem o WPForms Pro!"
 
@@ -5817,7 +5807,7 @@ msgstr "Zobrazit popis formuláře"
 msgid "Show Empty Fields"
 msgstr "Zobrazit prázdná pole"
 
-#. translators: %s - link to a site.
+#. translators: %s - link to the site.
 #: includes/emails/templates/footer-default.php:39
 #: templates/emails/general-footer.php:24
 msgid "Sent from %s"
@@ -6074,7 +6064,7 @@ msgstr "Testování"
 msgid "Test Connection"
 msgstr "Otestovat připojení"
 
-#. translators: %s - addon status label.
+#. translators: %s - status label.
 #: includes/admin/class-about.php:330
 msgid "Status: %s"
 msgstr "Stav: %s"
@@ -6083,7 +6073,7 @@ msgstr "Stav: %s"
 msgid "Standard Support"
 msgstr "Standardní podpora"
 
-#: includes/admin/builder/panels/class-fields.php:199
+#: includes/admin/builder/panels/class-fields.php:208
 msgid "Standard Fields"
 msgstr "Standardní pole"
 
@@ -6122,7 +6112,7 @@ msgstr "Vyberte skupiny"
 msgid "Select a form to generate PHP code that can be used to register a custom form template."
 msgstr "Vyberte formulář pro vygenerování kódu PHP, který lze použít k registraci vlastní šablony formuláře."
 
-#: includes/admin/admin.php:150 includes/fields/class-base.php:2854
+#: includes/admin/admin.php:150 includes/fields/class-base.php:2884
 msgid "Press to select"
 msgstr "Stisknutím tlačítka vyberte"
 
@@ -6224,11 +6214,11 @@ msgstr "Jak vytvořit formuláře kompatibilní s GDPR"
 msgid "How to Install and Activate WPForms Addons"
 msgstr "Jak nainstalovat a aktivovat doplňky WPForms"
 
-#: includes/fields/class-name.php:93 includes/fields/class-name.php:407
+#: includes/fields/class-name.php:94 includes/fields/class-name.php:408
 msgid "First"
 msgstr "Křestní jméno"
 
-#: includes/fields/class-name.php:243
+#: includes/fields/class-name.php:244
 msgid "First Last"
 msgstr "Křestní jméno Příjmení"
 
@@ -6246,11 +6236,11 @@ msgstr "Vytvoření prvního formuláře"
 msgid "%s (Last)"
 msgstr "%s (Příjmení)"
 
-#: includes/admin/builder/panels/class-fields.php:77
+#: includes/admin/builder/panels/class-fields.php:86
 msgid "Field Options"
 msgstr "Možnosti pole"
 
-#: includes/fields/class-name.php:244
+#: includes/fields/class-name.php:245
 msgid "First Middle Last"
 msgstr "Křestní jméno Druhé jméno Příjmení"
 
@@ -6259,11 +6249,11 @@ msgstr "Křestní jméno Druhé jméno Příjmení"
 msgid "%s (Middle)"
 msgstr "%s (Druhé jméno)"
 
-#: includes/fields/class-name.php:114 includes/fields/class-name.php:412
+#: includes/fields/class-name.php:115 includes/fields/class-name.php:413
 msgid "Middle"
 msgstr "Druhé jméno"
 
-#: includes/fields/class-name.php:324
+#: includes/fields/class-name.php:325
 msgid "Middle Name"
 msgstr "Druhé jméno"
 
@@ -6391,7 +6381,7 @@ msgstr "Jak přizpůsobit pole formuláře"
 msgid "Install Addon"
 msgstr "Nainstalovat doplněk"
 
-#: src/Admin/Tools/Importers/ContactForm7.php:333
+#: src/Admin/Tools/Importers/ContactForm7.php:335
 msgid "Acceptance Field"
 msgstr "Pole přijetí"
 
@@ -6406,7 +6396,7 @@ msgid "Because Constant Contact requires external authentication, you will need 
 msgstr "Protože Constant Contact vyžaduje externí autentizaci, budete muset zaregistrovat WPForms u Constant Contact, než budete moci pokračovat."
 
 #: includes/admin/admin.php:148 includes/admin/builder/class-builder.php:665
-#: includes/fields/class-base.php:2852 src/Admin/Forms/Tags.php:181
+#: includes/fields/class-base.php:2882 src/Admin/Forms/Tags.php:181
 msgid "No results found"
 msgstr "Nebyly nalezeny žádné výsledky"
 
@@ -6414,8 +6404,8 @@ msgstr "Nebyly nalezeny žádné výsledky"
 msgid "System Info"
 msgstr "Systémová informace"
 
-#: src/Admin/Tools/Importers/ContactForm7.php:157
-#: src/Admin/Tools/Importers/NinjaForms.php:162
+#: src/Admin/Tools/Importers/ContactForm7.php:159
+#: src/Admin/Tools/Importers/NinjaForms.php:164
 #: src/Admin/Tools/Importers/PirateForms.php:434
 msgid "No form fields found."
 msgstr "Nebyla nalezena žádná pole formuláře."
@@ -6438,7 +6428,7 @@ msgstr "Skrýt oznámení"
 msgid "No styling"
 msgstr "Žádný styl"
 
-#: src/Forms/Fields/PaymentTotal/Field.php:254
+#: src/Forms/Fields/PaymentTotal/Field.php:255
 msgid "Payment is required."
 msgstr "Je vyžadovaná platba."
 
@@ -6548,7 +6538,7 @@ msgstr "Nainstalujte si marketingovou integraci"
 msgid "It seems you do not have any marketing addons activated. You can head over to the <a href=\"%s\">Addons page</a> to install and activate the addon for your provider."
 msgstr "Zdá se, že nemáte aktivované žádné marketingové doplňky. Můžete přejít na <a href=\"%s\">stránku Doplňků</a> a nainstalovat a aktivovat doplněk pro Vašeho poskytovatele."
 
-#. translators: %s - Addons page URL.
+#. translators: %s - addons page URL.
 #: includes/admin/builder/panels/class-payments.php:83
 msgid "It seems you do not have any payment addons activated. You can head over to the <a href=\"%s\">Addons page</a> to install and activate the addon for your payment service."
 msgstr "Zdá se, že nemáte aktivované žádné marketingové doplňky. Můžete přejít na <a href=\"%s\">stránku Doplňků</a> a nainstalovat a aktivovat doplněk pro Vaši platební službu."
@@ -6562,7 +6552,7 @@ msgstr "Musíte <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup\
 msgid "You need to <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup\">setup your form</a> before you can manage the settings."
 msgstr "Musíte <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup\">nastavit Váš formulář</a> než budete moci tato nastavení spravovat."
 
-#: includes/admin/builder/panels/class-fields.php:104
+#: includes/admin/builder/panels/class-fields.php:113
 msgid "You need to <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup\">setup your form</a> before you can manage the fields."
 msgstr "Musíte <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup\">nastavit Váš formulář</a> než budete moci pole spravovat."
 
@@ -6705,7 +6695,7 @@ msgstr "Regiony"
 msgid "Countries"
 msgstr "Státy"
 
-#: src/Admin/Builder/AntiSpam.php:139
+#: src/Admin/Builder/AntiSpam.php:156
 msgid "Enable Google Invisible v2 reCAPTCHA"
 msgstr "Povolit Google Neviditelná v2 reCAPTCHA"
 
@@ -6757,7 +6747,7 @@ msgstr "E-mail správce webu"
 msgid "Payments Made Easy"
 msgstr "Snadné platby"
 
-#: includes/admin/builder/panels/class-fields.php:207
+#: includes/admin/builder/panels/class-fields.php:216
 msgid "Payment Fields"
 msgstr "Platební pole"
 
@@ -6815,7 +6805,7 @@ msgstr "Skrýt rozvržení"
 msgid "Select your layout"
 msgstr "Vyberte Vaše rozvržení"
 
-#: includes/admin/admin.php:149 includes/fields/class-base.php:2853
+#: includes/admin/admin.php:149 includes/fields/class-base.php:2883
 msgid "No choices to choose from"
 msgstr "Není k dispozici žádná volba"
 
@@ -6836,7 +6826,6 @@ msgstr "Bonus: Uživatelé WPForms Lite dostanou <span class=\"price-20-off\">50
 msgid "Changing templates on an existing form will DELETE existing form fields. Are you sure you want apply the new template?"
 msgstr "Změna šablon existujícího formuláře ODSTRANÍ existující pole formuláře. Opravdu chcete použít novou šablonu?"
 
-#. translators: %s - WPForms.com upgrade license docs page URL.
 #. translators: %s - WPForms.com upgrade from Lite to paid docs page URL.
 #: includes/admin/admin.php:602 includes/admin/admin.php:652
 msgid "Check out <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">our documentation</a> for step-by-step instructions."
@@ -7017,11 +7006,11 @@ msgstr "Ověřování"
 msgid "Single Line Text"
 msgstr "Jednořádkový text"
 
-#: includes/admin/builder/panels/class-fields.php:203
+#: includes/admin/builder/panels/class-fields.php:212
 msgid "Fancy Fields"
 msgstr "Efektivní pole"
 
-#: includes/fields/class-name.php:135 includes/fields/class-name.php:417
+#: includes/fields/class-name.php:136 includes/fields/class-name.php:418
 msgid "Last"
 msgstr "Příjmení"
 
@@ -7030,8 +7019,8 @@ msgstr "Příjmení"
 msgid "Whoops, you haven't created a form yet. Want to <a href=\"%s\">give it a go</a>?"
 msgstr "Jejda, ještě jste nevytvořili formulář. Chcete to <a href=\"%s\">zkusit</a>?"
 
-#: includes/fields/class-name.php:294 includes/fields/class-name.php:311
-#: includes/fields/class-name.php:328 includes/fields/class-name.php:345
+#: includes/fields/class-name.php:295 includes/fields/class-name.php:312
+#: includes/fields/class-name.php:329 includes/fields/class-name.php:346
 msgid "Placeholder"
 msgstr "Zástupný znak"
 
@@ -7077,7 +7066,7 @@ msgstr "Nainstalujte si svou marketingovou integraci"
 msgid "Sending..."
 msgstr "Odesíláni..."
 
-#. translators: %s - Provider type.
+#. translators: %s - provider type.
 #: includes/providers/class-base.php:1116
 msgid "Add New %s"
 msgstr "Přidat nové %s"
@@ -7167,7 +7156,7 @@ msgstr "Naším cílem je učinit vytváření online formulářů bezbolestným
 msgid "Embedded Post/Page URL"
 msgstr "Vložené URL příspěvku/stránky"
 
-#: src/Admin/Tools/Importers/NinjaForms.php:239
+#: src/Admin/Tools/Importers/NinjaForms.php:241
 #: src/Admin/Tools/Importers/PirateForms.php:250
 #: src/Admin/Tools/Importers/PirateForms.php:343
 msgid "Single Checkbox Field"
@@ -7193,7 +7182,7 @@ msgstr "Kopie"
 msgid "Choose a file&hellip;"
 msgstr "Vybrat soubor&hellip;"
 
-#: includes/fields/class-name.php:230
+#: includes/fields/class-name.php:231
 msgid "Select format to use for the name form field"
 msgstr "Vyberte formát, který chcete použít pro pole jméno ve formuláři"
 
@@ -7304,19 +7293,19 @@ msgstr "Při aktualizaci šablony formuláře došlo k chybě."
 msgid "No form ID provided."
 msgstr "Nebylo zadáno žádné ID formuláře."
 
-#: includes/fields/class-name.php:307
+#: includes/fields/class-name.php:308
 msgid "First name field advanced options."
 msgstr "Pokročilé možnosti pole pro křestní jméno."
 
-#: includes/fields/class-name.php:341
+#: includes/fields/class-name.php:342
 msgid "Last name field advanced options."
 msgstr "Pokročilé možnosti pole pro příjmení."
 
-#: includes/fields/class-name.php:324
+#: includes/fields/class-name.php:325
 msgid "Middle name field advanced options."
 msgstr "Pokročilé možnosti pole pro druhé jméno."
 
-#: includes/fields/class-name.php:290
+#: includes/fields/class-name.php:291
 msgid "Name field advanced options."
 msgstr "Pokročilé možnosti pole pro jméno."
 
@@ -7335,7 +7324,7 @@ msgstr "%1$s %2$s obsahuje více než %3$s položek (%4$s). To může návštěv
 msgid "Our smart captcha and spam protection automatically prevents spam submissions."
 msgstr "Naše inteligentní captcha a ochrana proti spamu automaticky zabraňuje odesílání spamu."
 
-#. translators: %d - Restored forms count.
+#. translators: %d - restored forms count.
 #: src/Admin/Forms/BulkActions.php:365
 msgid "%d form was successfully restored."
 msgid_plural "%d forms were successfully restored."
@@ -7343,7 +7332,7 @@ msgstr[0] "%d formulář byl úspěšně obnoven."
 msgstr[1] "%d formuláře byly úspěšně obnoveny."
 msgstr[2] "%d formulářů bylo úspěšně obnoveno."
 
-#. translators: %d - Number of deleted tags.
+#. translators: %d - number of deleted tags.
 #: src/Admin/Forms/Tags.php:287
 msgid "%d tags were successfully deleted."
 msgstr "%d tagů úspěšně smazáno."
@@ -7370,16 +7359,11 @@ msgstr "Protokoly"
 msgid "<strong>Please Note:</strong> Support for PHP 7.1 and below will be discontinued soon. After this, if no further action is taken, WPForms functionality will be disabled."
 msgstr "<strong>Poznámka:</strong> Podpora pro PHP 7.1 a nižší bude brzy ukončena. Poté, pokud nebude provedena žádná další akce, bude funkce WPForms deaktivována."
 
-#. translators: $1$s - WPForms plugin name; $2$s - WP.org review link; $3$s -
+#. translators: $1$s - WPForms plugin name, $2$s - WP.org review link, $3$s -
 #. WP.org review link.
 #: includes/admin/class-review.php:225
 msgid "Please rate %1$s <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> on <a href=\"%3$s\" target=\"_blank\" rel=\"noopener\">WordPress.org</a> to help us spread the word."
 msgstr "Prosím ohodnoťte %1$s <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> na <a href=\"%3$s\" target=\"_blank\" rel=\"noopener\">WordPress.org</a>. Každá zmínka a dobré hodnocení nám pomůže."
-
-#. translators: %s - stars.
-#: includes/admin/class-about.php:519
-msgid "We know that you will truly love WPForms. It has over <strong>12,000+ five star ratings</strong> (%s) and is active on over 5 million websites."
-msgstr "Víme, že budete WPForms opravdu milovat. Má více než <strong>12 000+ pětihvězdičkových hodnocení</strong> (%s) a je aktivní na více než 5 milionech webů."
 
 #: src/Integrations/Stripe/Admin/Builder/Settings.php:238
 msgid "Enable Conditional Logic"
@@ -7390,15 +7374,20 @@ msgstr "Povolit podmíněnou logiku"
 msgid "All Form Templates including Bonus %s pre-made form templates"
 msgstr "Všechny šablony formulářů včetně bonusových %s před-vytvořených šablon formulářů."
 
+#. translators: %s - stars.
+#: includes/admin/class-about.php:519
+msgid "We know that you will truly love WPForms. It has over <strong>12,000+ five star ratings</strong> (%s) and is active on over 6 million websites."
+msgstr "Víme, že budete WPForms opravdu milovat. Má více než <strong>12 000+ pětihvězdičkových hodnocení</strong> (%s) a je aktivní na více než 6 milionech webů."
+
 #. Author of the plugin
 #: includes/admin/class-menu.php:43 includes/admin/class-menu.php:44
 #: includes/admin/class-menu.php:55 includes/admin/class-menu.php:133
 #: includes/class-form.php:125 includes/integrations.php:37
-#: src/Emails/Templates/General.php:93 src/Integrations/Divi/Divi.php:210
+#: src/Emails/Templates/General.php:93 src/Integrations/Divi/Divi.php:213
 #: src/Integrations/Divi/WPFormsSelector.php:35
 #: src/Integrations/Elementor/Widget.php:41
-#: src/Integrations/Gutenberg/FormSelector.php:309
-#: src/Lite/Admin/DashboardWidget.php:176
+#: src/Integrations/Gutenberg/FormSelector.php:311
+#: src/Lite/Admin/DashboardWidget.php:187
 #: templates/admin/dashboard/widget/settings.php:47
 msgid "WPForms"
 msgstr "WPForms"
@@ -7446,40 +7435,40 @@ msgstr "Celkem"
 msgid "Rating"
 msgstr "Hodnocení"
 
-#: src/Admin/Education/Fields.php:166
+#: src/Admin/Education/Fields.php:167
 msgid "Signature"
 msgstr "Podpis"
 
-#: src/Lite/Admin/DashboardWidget.php:154
-#: src/Lite/Admin/DashboardWidget.php:375
+#: src/Lite/Admin/DashboardWidget.php:165
+#: src/Lite/Admin/DashboardWidget.php:386
 msgid "Show More"
 msgstr "Zobrazit více"
 
-#: src/Lite/Admin/DashboardWidget.php:155
+#: src/Lite/Admin/DashboardWidget.php:166
 msgid "Show Less"
 msgstr "Zobrazit méně"
 
 #: includes/admin/class-menu.php:76
 #: includes/admin/overview/class-overview-table.php:101
 #: src/Admin/Builder/Help.php:153 src/Admin/Forms/Views.php:423
-#: src/Lite/Admin/DashboardWidget.php:157 src/Logger/Log.php:101
+#: src/Lite/Admin/DashboardWidget.php:168 src/Logger/Log.php:101
 #: templates/emails/summary-body-plain.php:32
 #: templates/emails/summary-body.php:108
 msgid "Entries"
 msgstr "Záznamy"
 
-#: includes/admin/builder/panels/class-fields.php:537
+#: includes/admin/builder/panels/class-fields.php:550
 #: includes/fields/class-internal-information.php:286
-#: includes/fields/class-internal-information.php:414
-#: includes/fields/class-internal-information.php:604
+#: includes/fields/class-internal-information.php:416
+#: includes/fields/class-internal-information.php:606
 #: lite/templates/education/builder/did-you-know.php:27
 #: src/Admin/Notifications/EventDriven.php:566
 #: src/Admin/Notifications/EventDriven.php:632
 #: src/Admin/Notifications/EventDriven.php:685
 #: src/Admin/Pages/Analytics.php:479
 #: src/Integrations/UncannyAutomator/UncannyAutomator.php:174
-#: src/Lite/Admin/DashboardWidget.php:247
-#: src/Lite/Admin/DashboardWidget.php:413
+#: src/Lite/Admin/DashboardWidget.php:258
+#: src/Lite/Admin/DashboardWidget.php:424
 #: src/Lite/Admin/Education/Admin/DidYouKnow.php:130
 #: src/Lite/Admin/Education/Admin/DidYouKnow.php:136
 msgid "Learn More"
@@ -7494,11 +7483,11 @@ msgstr[0] "minuta"
 msgstr[1] "minuty"
 msgstr[2] "minut"
 
-#: src/Lite/Admin/DashboardWidget.php:410
+#: src/Lite/Admin/DashboardWidget.php:421
 msgid "Install"
 msgstr "Nainstalovat"
 
-#: src/Lite/Admin/DashboardWidget.php:405
+#: src/Lite/Admin/DashboardWidget.php:416
 msgid "Recommended Plugin:"
 msgstr "Doporučené pluginy:"
 
@@ -7516,13 +7505,13 @@ msgid "%s remaining"
 msgstr "%s zbývá"
 
 #: includes/providers/class-base.php:1270
-#: includes/providers/class-base.php:1342
-#: src/Providers/Provider/Settings/PageIntegrations.php:153
+#: includes/providers/class-base.php:1344
+#: src/Providers/Provider/Settings/PageIntegrations.php:155
 msgid "Disconnect"
 msgstr "Odpojit"
 
-#: includes/providers/class-base.php:1326
-#: src/Providers/Provider/Settings/PageIntegrations.php:89
+#: includes/providers/class-base.php:1328
+#: src/Providers/Provider/Settings/PageIntegrations.php:91
 msgid "Connected"
 msgstr "Připojeno"
 
@@ -7551,40 +7540,40 @@ msgstr "Odebrat"
 #: src/Integrations/Divi/WPFormsSelector.php:60
 #: src/Integrations/Elementor/Widget.php:115
 #: src/Integrations/Elementor/Widget.php:143
-#: src/Integrations/Gutenberg/FormSelector.php:325
+#: src/Integrations/Gutenberg/FormSelector.php:327
 #: templates/emails/summary-body-plain.php:32
 #: templates/emails/summary-body.php:107
 msgid "Form"
 msgstr "Formulář"
 
-#: src/Integrations/Gutenberg/FormSelector.php:318
+#: src/Integrations/Gutenberg/FormSelector.php:320
 msgid "Form Settings"
 msgstr "Nastavení formuláře"
 
-#: src/Integrations/Gutenberg/FormSelector.php:317
+#: src/Integrations/Gutenberg/FormSelector.php:319
 msgid "Select a Form"
 msgstr "Vyberte formulář"
 
-#: src/Integrations/Gutenberg/FormSelector.php:312
+#: src/Integrations/Gutenberg/FormSelector.php:314
 msgid "form"
 msgstr "formulář"
 
 #: src/Integrations/Divi/WPFormsSelector.php:67
-#: src/Integrations/Gutenberg/FormSelector.php:326
+#: src/Integrations/Gutenberg/FormSelector.php:328
 msgid "Show Title"
 msgstr "Zobrazit název"
 
 #: src/Integrations/Divi/WPFormsSelector.php:77
-#: src/Integrations/Gutenberg/FormSelector.php:327
+#: src/Integrations/Gutenberg/FormSelector.php:329
 msgid "Show Description"
 msgstr "Zobrazit popis"
 
-#: lite/wpforms-lite.php:192
+#: lite/wpforms-lite.php:196
 msgid "CC"
 msgstr "CC"
 
 #: includes/admin/builder/class-builder.php:614
-#: includes/admin/builder/functions.php:425 includes/fields/class-base.php:1970
+#: includes/admin/builder/functions.php:425 includes/fields/class-base.php:1992
 #: src/Integrations/Divi/WPFormsSelector.php:72
 #: src/Integrations/Divi/WPFormsSelector.php:82
 msgid "Off"
@@ -7597,118 +7586,121 @@ msgstr "Vypnout"
 msgid "On"
 msgstr "Zapnout"
 
-#: lite/wpforms-lite.php:447
+#: lite/wpforms-lite.php:453
 msgid "Show Page"
 msgstr "Zobrazit stránku"
 
-#: lite/wpforms-lite.php:446 src/Logger/ListTable.php:287
+#: lite/wpforms-lite.php:452 src/Logger/ListTable.php:287
 #: src/Logger/ListTable.php:472
 msgid "Message"
 msgstr "Zpráva"
 
-#: includes/fields/class-checkbox.php:32 includes/fields/class-radio.php:32
-#: includes/fields/class-select.php:54
+#: includes/fields/class-checkbox.php:33 includes/fields/class-radio.php:33
+#: includes/fields/class-select.php:55
 msgid "Second Choice"
 msgstr "Druhá možnost"
 
-#: includes/fields/class-checkbox.php:24 includes/fields/class-radio.php:24
-#: includes/fields/class-select.php:49
+#: includes/fields/class-checkbox.php:25 includes/fields/class-radio.php:25
+#: includes/fields/class-select.php:50
 msgid "First Choice"
 msgstr "První možnost"
 
-#: includes/fields/class-checkbox.php:40 includes/fields/class-radio.php:40
-#: includes/fields/class-select.php:59
+#: includes/fields/class-checkbox.php:41 includes/fields/class-radio.php:41
+#: includes/fields/class-select.php:60
 msgid "Third Choice"
 msgstr "Třetí možnost"
 
-#: includes/admin/class-settings.php:409 includes/fields/class-base.php:1028
+#: includes/admin/class-settings.php:409 includes/fields/class-base.php:1050
 msgid "Required"
 msgstr "Požadováno"
 
-#: includes/fields/class-base.php:987
+#: includes/fields/class-base.php:1009
 msgid "Description"
 msgstr "Popis"
 
-#: includes/fields/class-base.php:1082
+#: includes/fields/class-base.php:1104
 msgid "Code"
 msgstr "Kód"
 
 #: includes/admin/builder/class-builder.php:530
-#: includes/fields/class-base.php:1150
+#: includes/fields/class-base.php:1172
 msgid "Bulk Add"
 msgstr "Hromadné přidání"
 
 #: includes/admin/builder/class-builder.php:646
-#: includes/fields/class-base.php:1201 includes/fields/class-base.php:1364
+#: includes/fields/class-base.php:1223 includes/fields/class-base.php:1386
 msgid "Remove Image"
 msgstr "Odstranit obrázek"
 
-#: includes/admin/settings-api.php:404 includes/fields/class-base.php:1211
-#: includes/fields/class-base.php:1374
+#: includes/admin/settings-api.php:407 includes/fields/class-base.php:1233
+#: includes/fields/class-base.php:1396
 msgid "Upload Image"
 msgstr "Nahrát obrázek"
 
-#: includes/admin/ajax-actions.php:460 includes/fields/class-base.php:1243
+#: includes/admin/ajax-actions.php:460 includes/fields/class-base.php:1265
 msgid "post type"
 msgstr "typ příspěvků"
 
-#: includes/fields/class-base.php:1710 src/Forms/IconChoices.php:141
-#: src/Integrations/Gutenberg/FormSelector.php:350
+#: includes/fields/class-base.php:1732 src/Forms/IconChoices.php:141
+#: src/Integrations/Elementor/WidgetModern.php:64
+#: src/Integrations/Gutenberg/FormSelector.php:352
 msgid "Small"
 msgstr "Malý"
 
-#: includes/fields/class-base.php:1711 src/Forms/IconChoices.php:137
-#: src/Integrations/Gutenberg/FormSelector.php:351
+#: includes/fields/class-base.php:1733 src/Forms/IconChoices.php:137
+#: src/Integrations/Elementor/WidgetModern.php:65
+#: src/Integrations/Gutenberg/FormSelector.php:353
 msgid "Medium"
 msgstr "Střední"
 
-#: includes/fields/class-base.php:1712 src/Forms/IconChoices.php:133
-#: src/Integrations/Gutenberg/FormSelector.php:352
+#: includes/fields/class-base.php:1734 src/Forms/IconChoices.php:133
+#: src/Integrations/Elementor/WidgetModern.php:66
+#: src/Integrations/Gutenberg/FormSelector.php:354
 msgid "Large"
 msgstr "Velký"
 
-#: includes/fields/class-base.php:1481 includes/fields/class-base.php:1638
-#: includes/fields/class-select.php:303
-#: src/Forms/Fields/PaymentSelect/Field.php:284
+#: includes/fields/class-base.php:1503 includes/fields/class-base.php:1660
+#: includes/fields/class-select.php:304
+#: src/Forms/Fields/PaymentSelect/Field.php:285
 msgid "Classic"
 msgstr "Klasický"
 
-#: includes/fields/class-base.php:1480 includes/fields/class-base.php:1637
-#: includes/fields/class-select.php:304
-#: src/Forms/Fields/PaymentSelect/Field.php:285
+#: includes/fields/class-base.php:1502 includes/fields/class-base.php:1659
+#: includes/fields/class-select.php:305
+#: src/Forms/Fields/PaymentSelect/Field.php:286
 msgid "Modern"
 msgstr "Moderní"
 
-#: includes/fields/class-base.php:1482 includes/fields/class-base.php:1639
-#: includes/fields/class-email.php:378 src/Admin/Settings/Captcha/Page.php:158
+#: includes/fields/class-base.php:1504 includes/fields/class-base.php:1661
+#: includes/fields/class-email.php:379 src/Admin/Settings/Captcha/Page.php:158
 msgid "None"
 msgstr "Žádný"
 
-#: includes/fields/class-base.php:1674 includes/fields/class-name.php:298
-#: includes/fields/class-name.php:315 includes/fields/class-name.php:332
-#: includes/fields/class-name.php:349
+#: includes/fields/class-base.php:1696 includes/fields/class-name.php:299
+#: includes/fields/class-name.php:316 includes/fields/class-name.php:333
+#: includes/fields/class-name.php:350
 #: includes/fields/class-number-slider.php:219
 msgid "Default Value"
 msgstr "Výchozí hodnota"
 
-#: includes/fields/class-base.php:1926
+#: includes/fields/class-base.php:1948
 msgid "Three Columns"
 msgstr "Tři sloupce"
 
-#: includes/fields/class-base.php:1925
+#: includes/fields/class-base.php:1947
 msgid "Two Columns"
 msgstr "Dva sloupce"
 
-#: includes/fields/class-base.php:1924
+#: includes/fields/class-base.php:1946
 msgid "One Column"
 msgstr "Jeden sloupec"
 
-#: includes/fields/class-base.php:1826
+#: includes/fields/class-base.php:1848
 msgid "CSS Classes"
 msgstr "CSS třídy"
 
-#: includes/fields/class-checkbox.php:169
-#: src/Forms/Fields/PaymentCheckbox/Field.php:159
+#: includes/fields/class-checkbox.php:170
+#: src/Forms/Fields/PaymentCheckbox/Field.php:160
 msgid "Checked"
 msgstr "Kontrolovány"
 
@@ -7717,7 +7709,7 @@ msgstr "Kontrolovány"
 msgid "Add a Block"
 msgstr "Přidat blok"
 
-#: src/Admin/Education/Core.php:125 src/Admin/Education/Core.php:139
+#: src/Admin/Education/Core.php:170 src/Admin/Education/Core.php:188
 msgid "Already purchased?"
 msgstr "Již zakoupeno?"
 
@@ -7725,20 +7717,20 @@ msgstr "Již zakoupeno?"
 msgid "Close this window"
 msgstr "Zavřít toto okno"
 
-#: includes/admin/builder/panels/class-fields.php:425
-#: includes/fields/class-base.php:2544
+#: includes/admin/builder/panels/class-fields.php:438
+#: includes/fields/class-base.php:2574
 msgid "Delete Field"
 msgstr "Smazat pole"
 
-#: includes/fields/class-base.php:1313
+#: includes/fields/class-base.php:1335
 msgid "Items"
 msgstr "Položky"
 
-#: includes/admin/ajax-actions.php:492 includes/fields/class-base.php:1251
+#: includes/admin/ajax-actions.php:492 includes/fields/class-base.php:1273
 msgid "taxonomy"
 msgstr "taxonomie"
 
-#: includes/fields/class-base.php:1972 includes/fields/class-base.php:2035
+#: includes/fields/class-base.php:1994 includes/fields/class-base.php:2057
 msgid "Taxonomy"
 msgstr "Taxonomie"
 
@@ -7747,19 +7739,19 @@ msgstr "Taxonomie"
 msgid "Your site is running an <strong>insecure version</strong> of PHP that is no longer supported. Please contact your web hosting provider to update your PHP version or switch to a <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">recommended WordPress hosting company</a>."
 msgstr "Na webu běží <strong>nezabezpečená verze</strong> PHP, která již není podporována. Chcete-li aktualizovat verzi PHP, obraťte se na poskytovatele webhostingu nebo přejděte na <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">doporučenou hostingovou společnost WordPress</a>."
 
-#: src/Admin/Education/Core.php:186
+#: src/Admin/Education/Core.php:235
 #: src/Providers/Provider/Settings/FormBuilder.php:299
 msgid "You do not have permission to perform this action."
 msgstr "Nemáte oprávnění pro vykonání této akce."
 
-#: src/Providers/Provider/Settings/PageIntegrations.php:295
+#: src/Providers/Provider/Settings/PageIntegrations.php:297
 msgid "You do not have permissions."
 msgstr "Nemáte oprávnění."
 
 #: src/Admin/Education/Builder/Captcha.php:68 src/Admin/Pages/Analytics.php:530
 #: src/Admin/Pages/SMTP.php:442 src/Lite/Admin/Education/LiteConnect.php:399
 #: src/Logger/Log.php:179
-#: src/Providers/Provider/Settings/PageIntegrations.php:245
+#: src/Providers/Provider/Settings/PageIntegrations.php:247
 msgid "You do not have permission."
 msgstr "Nemáte povolení."
 
@@ -7778,22 +7770,22 @@ msgstr "--- Vyberte pole ---"
 msgid "Add Fields to Your Form"
 msgstr "Přidat pole do formuláře"
 
-#: includes/fields/class-base.php:1149 includes/fields/class-base.php:1314
+#: includes/fields/class-base.php:1171 includes/fields/class-base.php:1336
 msgid "Add choices for the form field."
 msgstr "Přidat volbu pro pole formuláře."
 
-#: lite/wpforms-lite.php:413
+#: lite/wpforms-lite.php:419
 msgid "Add New Confirmation"
 msgstr "Přidat nové potvrzení"
 
-#: includes/providers/class-base.php:750 includes/providers/class-base.php:1352
+#: includes/providers/class-base.php:750 includes/providers/class-base.php:1354
 #: includes/providers/class-constant-contact.php:538
 #: src/Providers/Provider/Settings/FormBuilder.php:487
-#: src/Providers/Provider/Settings/PageIntegrations.php:180
+#: src/Providers/Provider/Settings/PageIntegrations.php:182
 msgid "Add New Account"
 msgstr "Přidat nový účet"
 
-#: lite/wpforms-lite.php:888
+#: lite/wpforms-lite.php:895
 msgid "Add Notes / Comments"
 msgstr "Přidat poznámky / komentáře"
 
@@ -7801,33 +7793,33 @@ msgstr "Přidat poznámky / komentáře"
 msgid "Check Notification Settings"
 msgstr "Zkontrolujte nastavení oznámení"
 
-#: includes/fields/class-base.php:1438
+#: includes/fields/class-base.php:1460
 msgid "Check this option to enable using images with the choices."
 msgstr "Zaškrtněte tuto možnost, chcete-li povolit použití obrázků s volbami."
 
-#: includes/fields/class-email.php:292
+#: includes/fields/class-email.php:293
 msgid "Check this option to ask users to provide an email address twice."
 msgstr "Zaškrtněte tuto možnost, chcete-li uživatele požádat o poskytnutí e-mailové adresy dvakrát."
 
-#: includes/fields/class-checkbox.php:337 includes/fields/class-radio.php:300
+#: includes/fields/class-checkbox.php:338 includes/fields/class-radio.php:301
 msgid "Check this option to randomize the order of the choices."
 msgstr "Zaškrtněte tuto možnost, chcete-li náhodně pořadí voleb."
 
 #: includes/admin/builder/panels/class-settings.php:44
-#: lite/wpforms-lite.php:409
+#: lite/wpforms-lite.php:415
 msgid "Confirmations"
 msgstr "Potvrzení"
 
-#: lite/wpforms-lite.php:442
+#: lite/wpforms-lite.php:448
 msgid "Confirmation Type"
 msgstr "Typ potvrzení"
 
-#: lite/wpforms-lite.php:461
+#: lite/wpforms-lite.php:467
 msgid "Confirmation Message"
 msgstr "Potvrzovací zpráva"
 
-#: includes/admin/builder/panels/class-fields.php:419
-#: includes/fields/class-base.php:2541
+#: includes/admin/builder/panels/class-fields.php:432
+#: includes/fields/class-base.php:2571
 msgid "Duplicate Field"
 msgstr "Duplikovat pole"
 
@@ -7835,7 +7827,7 @@ msgstr "Duplikovat pole"
 msgid "File Upload"
 msgstr "Nahrání souboru"
 
-#: includes/fields/class-base.php:1720
+#: includes/fields/class-base.php:1742
 msgid "Field Size"
 msgstr "Velikost pole"
 
@@ -7843,7 +7835,7 @@ msgstr "Velikost pole"
 msgid "Give your form a name so you can easily identify it."
 msgstr "Pojmenujte formulář, abyste jej mohli snadno identifikovat."
 
-#: src/Admin/Education/Core.php:119
+#: src/Admin/Education/Core.php:160
 msgid "is a PRO Feature"
 msgstr "je funkce PRO"
 
@@ -7853,7 +7845,7 @@ msgid "Missing data"
 msgstr "Chybějící data"
 
 #: includes/admin/builder/panels/class-settings.php:43
-#: lite/wpforms-lite.php:101 src/Admin/AdminBarMenu.php:221
+#: lite/wpforms-lite.php:105 src/Admin/AdminBarMenu.php:221
 #: templates/admin/notifications.php:23
 msgid "Notifications"
 msgstr "Oznámení"
@@ -7867,7 +7859,7 @@ msgstr "Nemáte povolení"
 msgid "Website / URL"
 msgstr "Webová stránka / URL"
 
-#: includes/class-process.php:631
+#: includes/class-process.php:1001
 msgid "Uploaded files combined size exceeds allowed maximum."
 msgstr "Celková velikost nahraných souborů přesahuje povolené maximum."
 
@@ -7875,12 +7867,12 @@ msgstr "Celková velikost nahraných souborů přesahuje povolené maximum."
 msgid "Submit Feedback"
 msgstr "Odeslat zpětnou vazbu"
 
-#: includes/fields/class-checkbox.php:358 includes/fields/class-radio.php:321
-#: includes/fields/class-select.php:234
+#: includes/fields/class-checkbox.php:359 includes/fields/class-radio.php:322
+#: includes/fields/class-select.php:235
 msgid "Show Values"
 msgstr "Zobrazit hodnoty"
 
-#: src/Lite/Admin/DashboardWidget.php:374
+#: src/Lite/Admin/DashboardWidget.php:385
 msgid "Show all forms"
 msgstr "Zobrazit všechny formuláře"
 
@@ -7889,15 +7881,15 @@ msgstr "Zobrazit všechny formuláře"
 msgid "Show Accounts"
 msgstr "Zobrazit účty"
 
-#: lite/wpforms-lite.php:173
+#: lite/wpforms-lite.php:177
 msgid "Send To Email Address"
 msgstr "Odeslat na e-mailovou adresu"
 
-#: lite/wpforms-lite.php:894
+#: lite/wpforms-lite.php:901
 msgid "Resend Notifications"
 msgstr "Znovu odeslat oznámení"
 
-#: lite/wpforms-lite.php:291
+#: lite/wpforms-lite.php:297
 msgid "Reply-To"
 msgstr "Odpovědět"
 
@@ -7905,20 +7897,21 @@ msgstr "Odpovědět"
 msgid "Numbers"
 msgstr "Počet"
 
-#: includes/fields/class-base.php:948
-#: src/Integrations/Gutenberg/FormSelector.php:347
+#: includes/fields/class-base.php:970
+#: src/Integrations/Elementor/WidgetModern.php:216
+#: src/Integrations/Gutenberg/FormSelector.php:349
 msgid "Label"
 msgstr "Označení"
 
-#: lite/wpforms-lite.php:640
+#: lite/wpforms-lite.php:646
 msgid "Get WPForms Pro Today and Unlock all the Powerful Features »"
 msgstr "Získejte WPForms Pro ještě dnes a odemkněte všechny výkonné funkce »"
 
-#: includes/admin/class-about.php:500 lite/wpforms-lite.php:595
+#: includes/admin/class-about.php:500 lite/wpforms-lite.php:601
 msgid "Get WPForms Pro and Unlock all the Powerful Features"
 msgstr "Získejte WPForms Pro a odemkněte všechny výkonné funkce"
 
-#: src/Lite/Admin/DashboardWidget.php:238
+#: src/Lite/Admin/DashboardWidget.php:249
 #: templates/admin/empty-states/no-forms.php:18
 msgid "You can use WPForms to build contact forms, surveys, payment forms, and more with just a few clicks."
 msgstr "WPForms můžete použít k vytváření kontaktních formulářů, průzkumů, platebních formulářů a dalších pomocí několika kliknutí."
@@ -7933,14 +7926,14 @@ msgid "WPForms Addons"
 msgstr "WPForms Doplňky"
 
 #: includes/admin/class-welcome.php:261 src/Admin/Builder/Templates.php:913
-#: src/Admin/Education/Core.php:127
+#: src/Admin/Education/Core.php:172
 msgid "Upgrade to PRO"
 msgstr "Upgradovat na PRO"
 
 #: includes/admin/class-menu.php:371 includes/admin/class-welcome.php:333
 #: includes/functions/education.php:71 src/Admin/FlyoutMenu.php:112
 #: src/Admin/Tools/Views/Importer.php:229
-#: src/Lite/Admin/DashboardWidget.php:294
+#: src/Lite/Admin/DashboardWidget.php:305
 #: src/Lite/Admin/Settings/Access.php:242 templates/builder/help.php:91
 #: templates/education/admin/payments/coupons.php:48
 #: templates/education/admin/settings/geolocation/submit.php:44
@@ -7961,7 +7954,7 @@ msgstr "Upgradovat na WPForms Pro"
 msgid "Upgrade Now"
 msgstr "Upgradovat hned"
 
-#: lite/wpforms-lite.php:936
+#: lite/wpforms-lite.php:943
 msgid "Upgrade to WPForms Pro Now"
 msgstr "Upgradovat na WPForms Pro hned"
 
@@ -7970,33 +7963,33 @@ msgstr "Upgradovat na WPForms Pro hned"
 msgid "MonsterInsights"
 msgstr "MonsterInsights"
 
-#: lite/wpforms-lite.php:106
+#: lite/wpforms-lite.php:110
 msgid "Add New Notification"
 msgstr "Přidat nové oznámení"
 
-#: includes/admin/builder/class-builder.php:579 lite/wpforms-lite.php:162
+#: includes/admin/builder/class-builder.php:579 lite/wpforms-lite.php:166
 #: src/Admin/Tools/Importers/PirateForms.php:452
 msgid "Default Notification"
 msgstr "Výchozí oznámení"
 
-#: lite/wpforms-lite.php:105
+#: lite/wpforms-lite.php:109
 msgid "Multiple notifications"
 msgstr "Více oznámení"
 
-#: includes/fields/class-base.php:1437
+#: includes/fields/class-base.php:1459
 msgid "Use image choices"
 msgstr "Použít výběr obrázku"
 
-#: includes/class-form.php:546 includes/class-process.php:732
+#: includes/class-form.php:548 includes/class-process.php:1102
 #: includes/templates/class-simple-contact-form.php:69
-#: lite/wpforms-lite.php:401 lite/wpforms-lite.php:463
-#: src/Admin/Tools/Importers/ContactForm7.php:143
-#: src/Admin/Tools/Importers/NinjaForms.php:148
-#: src/Admin/Tools/Importers/PirateForms.php:466
+#: lite/wpforms-lite.php:407 lite/wpforms-lite.php:469
+#: src/Admin/Tools/Importers/ContactForm7.php:145
+#: src/Admin/Tools/Importers/NinjaForms.php:150
+#: src/Admin/Tools/Importers/PirateForms.php:468
 msgid "Thanks for contacting us! We will be in touch with you shortly."
 msgstr "Děkujeme, že jste nás kontaktovali! Brzy se s Vámi spojíme."
 
-#: includes/fields/class-base.php:1708
+#: includes/fields/class-base.php:1730
 msgid "Select the default form field size."
 msgstr "Vybrat výchozí velikost pole formuláře."
 
@@ -8007,22 +8000,21 @@ msgstr "Vybrat výchozí velikost pole formuláře."
 msgid "Select a Template"
 msgstr "Vyberte šablonu"
 
-#: includes/fields/class-base.php:1922
+#: includes/fields/class-base.php:1944
 msgid "Select the layout for displaying field choices."
 msgstr "Vyberte rozvržení pro zobrazení voleb pole."
 
-#: includes/fields/class-base.php:1968
+#: includes/fields/class-base.php:1990
 msgid "Select auto-populate method to use."
 msgstr "Vyberte metodu automatického vyplnění, kterou chcete použít."
 
 #. translators: %s - addon name.
-#. translators: %s - Addon name.
 #: src/Admin/Addons/Addons.php:389
 #: src/Admin/Education/Builder/Geolocation.php:112
 msgid "%s addon"
 msgstr "%s doplněk"
 
-#. translators: %s - form title.
+#. translators: %s - form name.
 #: src/Forms/Preview.php:130 src/Forms/Preview.php:268
 msgid "%s Preview"
 msgstr "%s náhled"
@@ -8044,7 +8036,7 @@ msgstr "Souhlasit"
 msgid "Section Divider"
 msgstr "Oddělovač sekce"
 
-#: src/Lite/Admin/DashboardWidget.php:242
+#: src/Lite/Admin/DashboardWidget.php:253
 #: templates/admin/empty-states/no-forms.php:25
 msgid "Create Your Form"
 msgstr "Vytvořte formulář"
@@ -8067,11 +8059,11 @@ msgstr "Ohodnoťte WPForms na WordPress.org"
 msgid "Connection missing"
 msgstr "Spojení chybí"
 
-#: src/Integrations/Gutenberg/FormSelector.php:310
+#: src/Integrations/Gutenberg/FormSelector.php:312
 msgid "Select and display one of your forms."
 msgstr "Vyberte a zobrazte jeden z formulářů."
 
-#: includes/fields/class-base.php:1020
+#: includes/fields/class-base.php:1042
 msgid "Check this option to mark the field required. A form will not submit unless all required fields are provided."
 msgstr "Zaškrtněte tuto možnost a označte požadované pole. Formulář nebude odeslán, pokud nebudou vyplněna všechna povinná pole."
 
@@ -8079,16 +8071,16 @@ msgstr "Zaškrtněte tuto možnost a označte požadované pole. Formulář nebu
 msgid "Checkboxes"
 msgstr "Zaškrtávací políčka"
 
-#. translators: %s - Connection date.
+#. translators: %s - connection date.
 #: includes/providers/class-base.php:1269
-#: includes/providers/class-base.php:1341
-#: src/Providers/Provider/Settings/PageIntegrations.php:152
+#: includes/providers/class-base.php:1343
+#: src/Providers/Provider/Settings/PageIntegrations.php:154
 msgid "Connected on: %s"
 msgstr "Připojeno k: %s"
 
 #. translators: %s - provider name.
 #: includes/providers/class-base.php:1296
-#: src/Providers/Provider/Settings/PageIntegrations.php:216
+#: src/Providers/Provider/Settings/PageIntegrations.php:218
 msgid "Connect to %s"
 msgstr "Připojit k %s"
 
@@ -8097,15 +8089,15 @@ msgstr "Připojit k %s"
 msgid "<strong>Note:</strong> The WPForms plugin is disabled on your site until you fix the issue. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Read more for additional information.</a>"
 msgstr "<strong>Poznámka:</strong> Plugin WPForms je na Vašem webu deaktivován, dokud problém nevyřešíte. <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Přečtěte si další informace.</a>"
 
-#: src/Admin/Education/Core.php:150
+#: src/Admin/Education/Core.php:199
 msgid "<strong>Bonus:</strong> WPForms Lite users get <span>50% off</span> regular price, automatically applied at checkout."
 msgstr "<strong>Bonus:</strong> Uživatelé WPForms Lite získají <span>50% slevu</span> z běžné ceny, která se automaticky použije na pokladně."
 
-#: lite/wpforms-lite.php:646
+#: lite/wpforms-lite.php:652
 msgid "<strong>Bonus:</strong> WPForms Lite users get <span class=\"green\">50% off regular price</span>, automatically applied at checkout."
 msgstr "<strong>Bonus:</strong> Uživatelé WPForms Lite získají <span class=\"green\">50% slevu z běžné ceny</span>, která se automaticky použije na pokladně."
 
-#: lite/wpforms-lite.php:594 templates/admin/notifications.php:27
+#: lite/wpforms-lite.php:600 templates/admin/notifications.php:27
 msgid "Dismiss this message"
 msgstr "Odmítnout tuto zprávu"
 
@@ -8116,19 +8108,19 @@ msgstr "Odmítnout tuto zprávu"
 msgid "Embed in a Page"
 msgstr "Vložit na stránku"
 
-#: includes/fields/class-checkbox.php:424
+#: includes/fields/class-checkbox.php:425
 msgid "Enable Disclaimer / Terms of Service Display"
 msgstr "Povolit zřeknutí se odpovědnosti/smluvní podmínky"
 
-#: includes/fields/class-base.php:1666
+#: includes/fields/class-base.php:1688
 msgid "Enter text for the default form field value."
 msgstr "Zadejte text pro výchozí hodnotu pole formuláře."
 
-#: includes/fields/class-base.php:980
+#: includes/fields/class-base.php:1002
 msgid "Enter text for the form field description."
 msgstr "Zadejte text pro popis pole formuláře."
 
-#: includes/fields/class-base.php:1075
+#: includes/fields/class-base.php:1097
 msgid "Enter code for the form field."
 msgstr "Zadejte kód pro pole formuláře."
 
@@ -8137,15 +8129,15 @@ msgstr "Zadejte kód pro pole formuláře."
 msgid "Field Name"
 msgstr "Název pole"
 
-#: includes/admin/class-about.php:561 lite/wpforms-lite.php:627
+#: includes/admin/class-about.php:561 lite/wpforms-lite.php:633
 msgid "Accept user-submitted content with the Post Submissions addon"
 msgstr "Přijmout obsah odeslaný uživatelem s doplňkem Post Submissions"
 
-#: includes/fields/class-checkbox.php:425
+#: includes/fields/class-checkbox.php:426
 msgid "Check this option to adjust the field styling to support Disclaimers and Terms of Service type agreements."
 msgstr "Tuto možnost zaškrtněte, chcete-li upravit styl pole tak, aby podporoval smlouvy o vyloučení odpovědnosti a smluvní podmínky."
 
-#: includes/fields/class-base.php:1859
+#: includes/fields/class-base.php:1881
 msgid "Check this option to hide the form field label."
 msgstr "Zaškrtněte tuto možnost, chcete-li skrýt popisek pole formuláře."
 
@@ -8153,56 +8145,55 @@ msgstr "Zaškrtněte tuto možnost, chcete-li skrýt popisek pole formuláře."
 msgid "Form Field Value"
 msgstr "Hodnota pole formuláře"
 
-#: includes/class-process.php:317 includes/class-process.php:436
-#: includes/class-process.php:893
+#: includes/class-process.php:365 includes/class-process.php:523
+#: includes/class-process.php:1263
 msgid "Form has not been submitted, please see the errors below."
 msgstr "Formulář nebyl odeslán, viz níže uvedené chyby."
 
-#: includes/fields/class-base.php:2497
+#: includes/fields/class-base.php:2527
 msgid "No form ID found"
 msgstr "Nebylo nalezeno žádné ID formuláře"
 
-#: includes/fields/class-base.php:2502
+#: includes/fields/class-base.php:2532
 msgid "No field type found"
 msgstr "Nebyl nalezen žádný typ pole"
 
 #. translators: %s - choice number.
 #: includes/admin/builder/class-builder.php:654
-#: includes/fields/class-checkbox.php:172
-#: includes/fields/class-checkbox.php:793 includes/fields/class-radio.php:149
-#: includes/fields/class-radio.php:625
+#: includes/fields/class-checkbox.php:173
+#: includes/fields/class-checkbox.php:794 includes/fields/class-radio.php:150
+#: includes/fields/class-radio.php:626
 msgid "Choice %s"
 msgstr "Volba %s"
 
-#: src/Lite/Admin/DashboardWidget.php:346
+#: src/Lite/Admin/DashboardWidget.php:357
 msgid "No entries were submitted yet."
 msgstr "Zatím nebyly zadány žádné příspěvky."
 
 #. translators: %s - provider name.
-#. translators: %s - addon name.
 #: includes/providers/class-base.php:1323
 #: lite/templates/education/admin/settings/integrations-item.php:36
 #: src/Providers/Provider/Settings/PageIntegrations.php:86
 msgid "Integrate %s with WPForms"
 msgstr "Integrovat %s s WPForms"
 
-#: lite/wpforms-lite.php:613
+#: lite/wpforms-lite.php:619
 msgid "Pro Features:"
 msgstr "Funkce verze Pro:"
 
-#: lite/wpforms-lite.php:448
+#: lite/wpforms-lite.php:454
 msgid "Go to URL (Redirect)"
 msgstr "Přejít na URL (Přesměrovat)"
 
-#: lite/wpforms-lite.php:892
+#: lite/wpforms-lite.php:899
 msgid "Mark Read / Unread"
 msgstr "Označit jako přečtené / nepřečtené"
 
-#: includes/fields/class-base.php:1466
+#: includes/fields/class-base.php:1488
 msgid "Image Choice Style"
 msgstr "Styl výběru obrázku"
 
-#: includes/fields/class-base.php:1467
+#: includes/fields/class-base.php:1489
 msgid "Select the style for the image choices."
 msgstr "Vyberte styl pro výběr obrázku."
 
@@ -8215,7 +8206,7 @@ msgid "Page Break"
 msgstr "Konec stránky"
 
 #: src/Forms/Fields/PaymentSingle/Field.php:47
-#: src/Forms/Fields/PaymentSingle/Field.php:228
+#: src/Forms/Fields/PaymentSingle/Field.php:229
 msgid "Single Item"
 msgstr "Jedna položka"
 
@@ -8255,30 +8246,29 @@ msgstr "Při provádění požadavku AJAX došlo k chybě."
 msgid "Custom Field Name"
 msgstr "Název vlastního pole"
 
-#: includes/admin/builder/class-builder.php:584 lite/wpforms-lite.php:421
+#: includes/admin/builder/class-builder.php:584 lite/wpforms-lite.php:427
 msgid "Default Confirmation"
 msgstr "Výchozí potvrzení"
 
-#: lite/wpforms-lite.php:412
+#: lite/wpforms-lite.php:418
 msgid "Multiple confirmations"
 msgstr "Více potvrzení"
 
-#. translators: %s - Form Title.
 #. translators: %s - form name.
-#: includes/class-form.php:536 lite/wpforms-lite.php:211
+#: includes/class-form.php:536 lite/wpforms-lite.php:215
 #: src/Admin/Tools/Importers/ContactForm7.php:133
-#: src/Admin/Tools/Importers/ContactForm7.php:443
+#: src/Admin/Tools/Importers/ContactForm7.php:445
 #: src/Admin/Tools/Importers/NinjaForms.php:138
-#: src/Admin/Tools/Importers/NinjaForms.php:425
+#: src/Admin/Tools/Importers/NinjaForms.php:427
 #: src/Admin/Tools/Importers/PirateForms.php:455
 msgid "New Entry: %s"
 msgstr "Nový záznam: %s"
 
-#: src/Lite/Admin/DashboardWidget.php:237
+#: src/Lite/Admin/DashboardWidget.php:248
 msgid "Create Your First Form to Start Collecting Leads"
 msgstr "Vytvořte svůj první formulář a začněte sbírat potenciální zákazníky"
 
-#: lite/wpforms-lite.php:224
+#: lite/wpforms-lite.php:230
 msgid "From Name"
 msgstr "Od"
 
@@ -8291,23 +8281,23 @@ msgid "Paragraph Text"
 msgstr "Odstavec"
 
 #. translators: %s - form name.
-#: includes/class-process.php:965 lite/wpforms-lite.php:90
+#: includes/class-process.php:1366 lite/wpforms-lite.php:92
 msgid "New %s Entry"
 msgstr "Nový záznam pro %s"
 
-#: lite/wpforms-lite.php:495
+#: lite/wpforms-lite.php:501
 msgid "Confirmation Page"
 msgstr "Stránka s potvrzením"
 
-#: lite/wpforms-lite.php:482
+#: lite/wpforms-lite.php:488
 msgid "Automatically scroll to the confirmation message"
 msgstr "Automaticky posunout na potvrzení zprávy"
 
-#: src/Admin/Education/Fields.php:175
+#: src/Admin/Education/Fields.php:177
 msgid "Likert Scale"
 msgstr "Likertova stupnice"
 
-#: src/Providers/Provider/Settings/PageIntegrations.php:303
+#: src/Providers/Provider/Settings/PageIntegrations.php:305
 msgid "Missing required data in payload."
 msgstr "Chybí požadovaná data pro payload."
 
@@ -8315,51 +8305,51 @@ msgstr "Chybí požadovaná data pro payload."
 msgid "Map custom fields (or properties) to form fields values."
 msgstr "Přiřaďte vlastní pole (nebo vlastnosti) k hodnotám polí formuláře."
 
-#: includes/providers/class-base.php:1359
-#: src/Providers/Provider/Settings/PageIntegrations.php:187
+#: includes/providers/class-base.php:1361
+#: src/Providers/Provider/Settings/PageIntegrations.php:189
 msgid "Please fill out all of the fields below to add your new provider account."
 msgstr "Chcete-li přidat nový účet poskytovatele, vyplňte prosím všechna níže uvedená pole."
 
-#: src/Lite/Admin/DashboardWidget.php:291
+#: src/Lite/Admin/DashboardWidget.php:302
 msgid "Upgrade to Pro and get access to the reports."
 msgstr "Upgradujte na Pro a získejte přístup k reportům."
 
-#: lite/wpforms-lite.php:596
+#: lite/wpforms-lite.php:602
 msgid "Thanks for being a loyal WPForms Lite user. Upgrade to WPForms Pro to unlock all the awesome features and experience why WPForms is consistently rated the best WordPress form builder."
 msgstr "Děkujeme, že jste loajální uživatel WPForms Lite. Upgradujte na WPForms Pro a odemkněte všechny úžasné funkce a zažijte, proč je WPForms trvale hodnocen jako nejlepší tvůrce formulářů WordPress."
 
-#: includes/admin/class-about.php:585 lite/wpforms-lite.php:634
+#: includes/admin/class-about.php:585 lite/wpforms-lite.php:640
 msgid "Create user registration and login forms"
 msgstr "Formuláře registrace a přihlášení uživatelů WordPress"
 
-#: lite/wpforms-lite.php:895
+#: lite/wpforms-lite.php:902
 msgid "See Geolocation Data"
 msgstr "Zobrazit geolokační data"
 
-#: includes/fields/class-base.php:1868
+#: includes/fields/class-base.php:1890
 msgid "Hide Label"
 msgstr "Skrýt popisek"
 
-#: includes/fields/class-base.php:941
+#: includes/fields/class-base.php:963
 msgid "Enter text for the form field label. Field labels are recommended and can be hidden in the Advanced Settings."
 msgstr "Zadejte text pro popisek pole formuláře. Popisky polí jsou doporučeny a mohou být skryty v Pokročilém nastavení."
 
 #: includes/admin/builder/class-builder.php:937
 #: includes/admin/class-welcome.php:138
 #: lite/templates/education/lite-connect-modal.php:15
-#: src/Lite/Admin/DashboardWidget.php:236
+#: src/Lite/Admin/DashboardWidget.php:247
 #: templates/admin/challenge/modal.php:52
 #: templates/builder/fullscreen/mobile-notice.php:15
 #: templates/builder/help.php:32
 msgid "Sullie the WPForms mascot"
 msgstr "Sullie, maskot WPForms"
 
-#: includes/fields/class-base.php:1980
+#: includes/fields/class-base.php:2002
 msgid "Dynamic Choices"
 msgstr "Dynamické možnosti"
 
 #. translators: %s - dynamic source type name.
-#: includes/fields/class-base.php:2052
+#: includes/fields/class-base.php:2074
 msgid "Dynamic %s Source"
 msgstr "Dynamický zdroj %s"
 
@@ -8371,32 +8361,32 @@ msgstr "Zaškrtávací položky"
 msgid "Dropdown Items"
 msgstr "Rozbalovací položky"
 
-#: src/Admin/Education/Fields.php:184
+#: src/Admin/Education/Fields.php:187
 msgid "Net Promoter Score"
 msgstr "Net Promoter Skóre"
 
 #: includes/admin/builder/class-builder.php:591
-#: includes/fields/class-base.php:1817
+#: includes/fields/class-base.php:1839
 msgid "Show Layouts"
 msgstr "Zobrazit rozvržení"
 
-#: includes/fields/class-base.php:1935
+#: includes/fields/class-base.php:1957
 msgid "Choice Layout"
 msgstr "Možnosti rozvržení"
 
-#: includes/fields/class-base.php:1114
+#: includes/fields/class-base.php:1136
 msgid "Choices"
 msgstr "Volby"
 
-#: includes/fields/class-checkbox.php:336 includes/fields/class-radio.php:299
+#: includes/fields/class-checkbox.php:337 includes/fields/class-radio.php:300
 msgid "Randomize Choices"
 msgstr "Náhodné volby"
 
-#: lite/wpforms-lite.php:513
+#: lite/wpforms-lite.php:519
 msgid "Confirmation Redirect URL"
 msgstr "URL pro přesměrování potvrzení"
 
-#: includes/fields/class-email.php:334
+#: includes/fields/class-email.php:335
 msgid "Confirmation Placeholder Text"
 msgstr "Zástupný text potvrzení"
 
@@ -8408,7 +8398,7 @@ msgstr "Výchozí nastavení oznámení by mělo stačit, ale pro jistotu to dva
 msgid "Beginner friendly WordPress contact form plugin. Use our Drag & Drop form builder to create your WordPress forms."
 msgstr "Plugin pro tvorbu kontaktních formulářů WordPress i pro začátečníky. Použijte náš Drag & Drop tvůrce formulářů k vytvoření formulářů WordPress."
 
-#: includes/fields/class-base.php:1971 includes/fields/class-base.php:2023
+#: includes/fields/class-base.php:1993 includes/fields/class-base.php:2045
 msgid "Post Type"
 msgstr "Typ Příspěvku"
 
@@ -8418,60 +8408,60 @@ msgid "Click the “Add Form” button, select your form, then add the embed cod
 msgstr "Klikněte na tlačítko “Vytvořit formulář”, vyhledejte WPForms, vyberte formulář, který chcete vložit."
 
 #: includes/admin/builder/class-builder.php:640
-#: includes/admin/builder/functions.php:57 includes/fields/class-base.php:1667
+#: includes/admin/builder/functions.php:57 includes/fields/class-base.php:1689
 msgid "Show Smart Tags"
 msgstr "Zobrazit chytré tagy"
 
 #. translators: %s - {all_fields} Smart Tag.
-#: lite/wpforms-lite.php:327
+#: lite/wpforms-lite.php:333
 msgid "To display all form fields, use the %s Smart Tag."
 msgstr "Chcete-li zobrazit všechna pole formuláře, použijte chytrý tag %s."
 
-#: src/Lite/Admin/DashboardWidget.php:290
+#: src/Lite/Admin/DashboardWidget.php:301
 msgid "Form entries are not stored in Lite."
 msgstr "Záznamy formuláře nejsou uloženy ve verzi Lite."
 
-#: lite/wpforms-lite.php:874
+#: lite/wpforms-lite.php:881
 msgid "Form entries are not stored in WPForms Lite."
 msgstr "Záznamy formuláře nejsou uloženy ve WPForms Lite."
 
-#: lite/wpforms-lite.php:886
+#: lite/wpforms-lite.php:893
 msgid "View Entries in Dashboard"
 msgstr "Zobrazit záznamy na hlavním panelu"
 
-#: lite/wpforms-lite.php:889
+#: lite/wpforms-lite.php:896
 msgid "Save Favorite Entries"
 msgstr "Uložit oblíbené záznamy"
 
-#: lite/wpforms-lite.php:893
+#: lite/wpforms-lite.php:900
 msgid "Print Entries"
 msgstr "Vytisknout záznamy"
 
-#: lite/wpforms-lite.php:887
+#: lite/wpforms-lite.php:894
 msgid "Export Entries in a CSV File"
 msgstr "Exportovat záznamy do souboru CSV"
 
-#: src/Lite/Admin/DashboardWidget.php:288
+#: src/Lite/Admin/DashboardWidget.php:299
 msgid "View all Form Entries inside the WordPress Dashboard"
 msgstr "Zobrazit všechny záznamy formuláře na ovládacím panelu WordPress"
 
-#: lite/wpforms-lite.php:879
+#: lite/wpforms-lite.php:886
 msgid "View and Manage Your Form Entries inside WordPress"
 msgstr "Zobrazte a spravujte všechny záznamy ve formuláři uvnitř WordPressu"
 
-#: lite/wpforms-lite.php:882
+#: lite/wpforms-lite.php:889
 msgid "Once you upgrade to WPForms Pro, all future form entries will be stored in your WordPress database and displayed on this Entries screen."
 msgstr "Po upgradu na WPForms Pro budou všechny budoucí záznamy formuláře uloženy do Vaší databáze WordPress a zobrazeny na této obrazovce Záznamy."
 
-#: includes/fields/class-base.php:1780
+#: includes/fields/class-base.php:1802
 msgid "Placeholder Text"
 msgstr "Zástupný text"
 
-#: includes/fields/class-base.php:1773
+#: includes/fields/class-base.php:1795
 msgid "Enter text for the form field placeholder."
 msgstr "Zadejte text pro zástupný znak pole formuláře."
 
-#: includes/fields/class-email.php:335
+#: includes/fields/class-email.php:336
 msgid "Enter text for the confirmation field placeholder."
 msgstr "Zadejte text pro zástupný znak potvrzovací pole."
 
@@ -8480,7 +8470,7 @@ msgstr "Zadejte text pro zástupný znak potvrzovací pole."
 msgid "Marketing provider connection"
 msgstr "Připojení poskytovatele marketingu"
 
-#: includes/class-process.php:161
+#: includes/class-process.php:189
 msgid "Invalid form."
 msgstr "Neplatná forma."
 
@@ -8488,7 +8478,7 @@ msgstr "Neplatná forma."
 msgid "GDPR Agreement"
 msgstr "Dohoda GDPR"
 
-#: includes/fields/class-base.php:1814
+#: includes/fields/class-base.php:1836
 msgid "Enter CSS class names for the form field container. Class names should be separated with spaces."
 msgstr "Zadejte názvy tříd CSS pro kontejner pole formuláře. Více jmen by mělo být odděleno mezerami."
 
@@ -8497,11 +8487,11 @@ msgid "I consent to having this website store my submitted information so they c
 msgstr "Souhlasím s tím, aby tento web ukládal mé odeslané informace, aby bylo možné odpovědět na můj požadavek."
 
 #. translators: %s - dynamic source type name.
-#: includes/fields/class-base.php:2049
+#: includes/fields/class-base.php:2071
 msgid "Select %s to use for auto-populating field choices."
 msgstr "Vyberte %s, který chcete použít pro automatické vyplnění polí."
 
-#: includes/fields/class-base.php:1927
+#: includes/fields/class-base.php:1949
 msgid "Inline"
 msgstr "Jednořádkově"
 
@@ -8517,53 +8507,53 @@ msgstr "Zrušit výzvu"
 msgid "Skip challenge"
 msgstr "Přeskočit výzvu"
 
-#. translators: %1$s - Number of minutes in HTML container; %2$s - Single or
-#. plural word 'minute'; %3$s - Number of seconds in HTML container; %4$s -
-#. Single or plural word 'second'; %5$s - 5 rating star symbols HTML.
+#. translators: %1$s - number of minutes in HTML container, %2$s - singular or
+#. plural form of 'minute', %3$s - number of seconds in HTML container, %4$s -
+#. singular or plural form of 'second', %5$s - 5 rating star symbols HTML.
 #: templates/admin/challenge/embed.php:61
 msgid "You completed the WPForms Challenge in <b>%1$s %2$s %3$s %4$s</b>. Share your success story with other WPForms users and help us spread the word <b>by giving WPForms a 5-star rating (%5$s) on WordPress.org</b>. Thanks for your support and we look forward to bringing you more awesome features."
 msgstr "Dokončili jste výzvu WPForms za <b>%1$s %2$s %3$s %4$s</b>. Sdílejte svůj úspěch s ostatními uživateli <b>ohodnocením WPForms 5 hvězdičkami (%5$s) na WordPress.org</b>. Každá zmínka a dobré hodnocení nám pomůže. Děkujeme za Vaši podporu a těšíme se, až Vám přineseme další úžasné funkce."
 
-#. translators: %1$d - Number of minutes; %2$s - Single or plural word
+#. translators: %1$d - number of minutes, %2$s - singular or plural form of
 #. 'minute'.
 #: templates/admin/challenge/embed.php:99
 msgid "We're sorry that it took longer than %1$d %2$s to create a form. Our goal is to create the most beginner friendly WordPress form plugin. Please take a moment to let us know how we can improve WPForms."
 msgstr "Je nám líto, že vytvoření formuláře trvalo déle než %1$d %2$s. Naším cílem je vytvořit plugin pro WordPress, který je nejvhodnější pro začátečníky. Věnujte prosím chvilku a dejte nám vědět, jak můžeme vylepšit WPForms."
 
-#: includes/fields/class-email.php:156 includes/fields/class-email.php:473
+#: includes/fields/class-email.php:157 includes/fields/class-email.php:474
 msgid "Confirm Email"
 msgstr "Potvrďte e-mail"
 
 #: includes/admin/class-settings.php:192 includes/admin/class-settings.php:335
 #: includes/admin/class-settings.php:415 includes/fields/class-email.php:39
-#: includes/fields/class-email.php:132 includes/fields/class-email.php:468
+#: includes/fields/class-email.php:133 includes/fields/class-email.php:469
 #: includes/templates/class-simple-contact-form.php:39
 #: src/Integrations/Stripe/Fields/PaymentElementCreditCard.php:219
 msgid "Email"
 msgstr "E-mail"
 
-#: lite/wpforms-lite.php:259
+#: lite/wpforms-lite.php:265
 msgid "From Email"
 msgstr "Z e-mailu"
 
-#: includes/fields/class-email.php:291
+#: includes/fields/class-email.php:292
 msgid "Enable Email Confirmation"
 msgstr "Povolit potvrzení e-mailem"
 
-#: lite/wpforms-lite.php:176
+#: lite/wpforms-lite.php:180
 msgid "Enter the email address to receive form entry notifications. For multiple notifications, separate email addresses with a comma."
 msgstr "Zadejte e-mailovou adresu, na kterou chcete dostávat oznámení o záznamech formuláře. Pro více oznámení, oddělte e-mailové adresy čárkou."
 
-#: src/Lite/Admin/DashboardWidget.php:289
+#: src/Lite/Admin/DashboardWidget.php:300
 msgid "Form entries reports are not available."
 msgstr "Přehledy záznamů formuláře nejsou k dispozici."
 
-#: src/Lite/Admin/DashboardWidget.php:305
+#: src/Lite/Admin/DashboardWidget.php:316
 msgid "Total Entries by Form"
 msgstr "Celkový počet záznamů podle formuláře"
 
 #. translators: %s - WPForms.com docs page URL.
-#: lite/wpforms-lite.php:558
+#: lite/wpforms-lite.php:564
 msgid "You've just turned off notification emails for this form. Since entries are not stored in WPForms Lite, notification emails are recommended for collecting entry details. For setup steps, <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">please see our notification tutorial</a>."
 msgstr "Právě jste vypnuli oznamovací e-maily pro tento formulář. Protože záznamy nejsou uloženy ve WPForms Lite, pro shromažďování podrobností o záznamu se doporučuje e-mailová upozornění. Postup nastavení <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">naleznete v našem tutoriálu</a>."
 
@@ -8571,8 +8561,8 @@ msgstr "Právě jste vypnuli oznamovací e-maily pro tento formulář. Protože 
 msgid "hCaptcha"
 msgstr "hCaptcha"
 
-#: includes/fields/class-checkbox.php:359 includes/fields/class-radio.php:322
-#: includes/fields/class-select.php:235
+#: includes/fields/class-checkbox.php:360 includes/fields/class-radio.php:323
+#: includes/fields/class-select.php:236
 msgid "Check this option to manually set form field values."
 msgstr "Zaškrtněte tuto možnost pro ruční nastavení hodnot polí formuláře."
 
@@ -8580,21 +8570,21 @@ msgstr "Zaškrtněte tuto možnost pro ruční nastavení hodnot polí formulá�
 msgid "WPForms Addons are a PRO feature"
 msgstr "Doplňky WPForms jsou funkcí verze PRO."
 
-#: includes/fields/class-base.php:1422
+#: includes/fields/class-base.php:1444
 msgid "<h4>Images are not cropped or resized.</h4><p>For best results, they should be the same size and 250x250 pixels or smaller.</p>"
 msgstr "<h4>Obrázky nejsou oříznuty ani upraveny.</h4><p>Pro dosažení nejlepších výsledků by měly být stejné velikosti a nejvýše 250x250 pixelů.</p>"
 
 #. translators: %s - total amount of choices.
-#: includes/admin/builder/panels/class-fields.php:676
-#: includes/fields/class-base.php:2458
+#: includes/admin/builder/panels/class-fields.php:689
+#: includes/fields/class-base.php:2488
 msgid "Showing the first 20 choices.<br> All %s choices will be displayed when viewing the form."
 msgstr "Zobrazeno prvních 20 možností.<br> Při prohlížení formuláře se zobrazí všech %s možností."
 
-#: includes/fields/class-base.php:1899
+#: includes/fields/class-base.php:1921
 msgid "Hide Sublabels"
 msgstr "Skrýt podnadpisy"
 
-#: includes/fields/class-base.php:1890
+#: includes/fields/class-base.php:1912
 msgid "Check this option to hide the form field sublabel."
 msgstr "Zaškrtněte tuto možnost, chcete-li skrýt podnadpis pole formuláře."
 
@@ -8603,15 +8593,15 @@ msgid "Search Addons"
 msgstr "Vyhledávání doplňky"
 
 #. translators: %s - addon name.
-#: src/Admin/Education/Core.php:121
+#: src/Admin/Education/Core.php:163
 msgid "We're sorry, the %s is not available on your plan. Please upgrade to the PRO plan to unlock all these awesome features."
 msgstr "Je nám líto, %s není ve Vašem plánu k dispozici. Upgradujte na plán PRO, abyste odemkli všechny tyto úžasné funkce."
-
-#. translators: %s - star icons.
-#: lite/wpforms-lite.php:601
-msgid "We know that you will truly love WPForms. It has over 12,000+ five star ratings (%s) and is active on over 5 million websites."
-msgstr "Víme, že budete WPForms opravdu milovat. Má více než 12 000+ pětihvězdičkových hodnocení (%s) a je aktivní na více než 5 milionech webů."
 
 #: src/Admin/Helpers/Datepicker.php:353
 msgid "Last 90 days"
 msgstr "Posledních 90 dní"
+
+#. translators: %s - star icons.
+#: lite/wpforms-lite.php:607
+msgid "We know that you will truly love WPForms. It has over 12,000+ five star ratings (%s) and is active on over 6 million websites."
+msgstr "Víme, že budete WPForms opravdu milovat. Má více než 12 000+ pětihvězdičkových hodnocení (%s) a je aktivní na více než 6 milionech webů."
